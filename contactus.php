@@ -63,21 +63,11 @@ include("header.php");
 <div class="col-md-6">
 	  <br style="clear:both">
 	 <h3 style="margin-bottom: 25px; text-align:center;">Location</h3>
-	 <div id="map"></div>
+   <iframe id="map" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=%E0%B8%AB%E0%B8%88%E0%B8%81.%20%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B8%9B%20%E0%B9%81%E0%B8%A1%E0%B8%8A%E0%B8%8A%E0%B8%B5%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88%20Phahon%20Yothin%2048%20Alley%2C%20Lane%2060%2C%20Tha%20Raeng%2C%20Bang%20Khen%2C%20Bangkok&key=AIzaSyAiOaOaOqtypn-v_8FVNIoh2fFsUNYJ4_4" allowfullscreen></iframe>
 </div>
 </div>
 	
-	<script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
-    	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhxI30eP9Q-nBMjNrLG_kjwG-b4yjW1a0&callback=initMap"
-    async defer></script>
    
 </body>
 </html>

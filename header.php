@@ -12,7 +12,7 @@
      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <script src="js/bootstrap.min.js"></script>
    <link rel="stylesheet" type="text/css" href="css/custom-style.css">
-    
+    <script src="js/custom-js.js"></script>
 <!--     <script src="js/bootstrap.bundle.min.js"></script> -->
 </head>
 <body>
