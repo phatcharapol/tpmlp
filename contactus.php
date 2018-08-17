@@ -33,7 +33,7 @@ include("header.php");
     </div>
   </nav>
 
-<div class="container">
+<div class="container insidepagecontactus">
 <div class="col-md-6">
     <div class="form-area">  
         <form role="form">
@@ -67,6 +67,14 @@ include("header.php");
 src="https://www.google.com/maps/embed/v1/place?q=%E0%B8%AB%E0%B8%88%E0%B8%81.%20%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B8%9B%20%E0%B9%81%E0%B8%A1%E0%B8%8A%E0%B8%8A%E0%B8%B5%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88%20Phahon%20Yothin%2048%20Alley%2C%20Lane%2060%2C%20Tha%20Raeng%2C%20Bang%20Khen%2C%20Bangkok&key=AIzaSyAiOaOaOqtypn-v_8FVNIoh2fFsUNYJ4_4" allowfullscreen></iframe>
 </div>
 </div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+      document.getElementsByClassName("row");
+    $(".container.insidepagecontactus").addClass("magictime vanishIn"); 
+    });
+   </script>
 	
    
 </body>
