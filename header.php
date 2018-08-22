@@ -14,17 +14,9 @@
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
    <link rel="stylesheet" type="text/css" href="css/magic.min.css">
       <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+       <script src="js/jquery.sticky.js"></script>
     <script src="js/custom-js.js"></script>
 <!--     <script src="js/bootstrap.bundle.min.js"></script> -->
 </head>
-<body>
-		
 
-
-
-  
-
-
-
-</body>
 </html>

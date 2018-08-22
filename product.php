@@ -10,15 +10,13 @@ include("header.php");
 </head>
 
 <body>
-    <script type="text/javascript">
+ <script type="text/javascript">
     $(document).ready(function() {
-   
-    $(".container.insidepageprod").addClass("magictime vanishIn"); 
-    });
-   </script>
+         $(".container.insidepageprod").addClass("magictime vanishIn");
+      });
+ </script>
 	 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-     
         <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav">
         <span class="icon-bar"></span>
@@ -27,8 +25,6 @@ include("header.php");
       </button>
       <a class="navbar-brand" href="index.php">TPMLP</a>
     </div>
-  
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav">
           <li><a href="homepage.php">Home</a></li>
@@ -55,35 +51,24 @@ include("header.php");
           <h4>Type A</h4>
             <div class="col-md-3 col-sm-3 thumb">
                
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
+                    <img class="img-thumbnail" src="asset/product/1.jpg" alt="Description Item....1" >
                
-                1
+                       1
             </div>
             <div class="col-md-3 col-sm-3 thumb">
                
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
-               
+                    <img class="img-thumbnail" src="asset/product/2.jpg" alt="Description Item....2">
                 2
             </div>
 
             <div class="col-md-3 col-sm-3 thumb">
                
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
-               
+                    <img class="img-thumbnail" src="asset/product/3.jpg" alt="Description Item....3">
                 3
             </div>
             <div class="col-md-3 col-sm-3 thumb">
    
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
-               
+                    <img class="img-thumbnail" src="asset/product/4.jpg" alt="Description Item....4">
                 4
             </div>
           </div>
@@ -93,10 +78,7 @@ include("header.php");
         <h4>Type B</h4>
          <div class="col-md-3 col-sm-3 thumb">
               
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
-               
+                    <img class="img-thumbnail" src="asset/product/5.jpg" alt="Description Item....5">
                 5
             </div>
 
@@ -104,25 +86,19 @@ include("header.php");
 
          <div class="col-md-3 col-sm-3 thumb">
                
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
+                    <img class="img-thumbnail" src="asset/product/6.jpg" alt="Description Item....6">
                
                 6
             </div>
          <div class="col-md-3 col-sm-3 thumb">
                
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
+                    <img class="img-thumbnail" src="asset/product/7.jpeg" alt="Description Item....7">
                
                 7
             </div>
          <div class="col-md-3 col-sm-3 thumb">
               
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
+                    <img class="img-thumbnail" src="asset/product/8.jpg" alt="Description Item....8">
                
                 8
             </div>
@@ -136,25 +112,17 @@ include("header.php");
             <h4>Type C</h4>
              <div class="col-md-3 col-sm-3 thumb">
                
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
-               
+                    <img class="img-thumbnail" src="asset/product/9.jpg" alt="Description Item....9">
                 9
             </div>
             <div class="col-md-3 col-sm-3 thumb">
                
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
-               
+                    <img class="img-thumbnail" src="asset/product/10.jpg" alt="Description Item....10">
                 10
             </div>
              <div class="col-md-3 col-sm-3 thumb">
               
-                    <img class="img-thumbnail"
-                         src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                         alt="Description Item....">
+                    <img class="img-thumbnail" src="asset/product/11.jpg" alt="Description Item....11">
                
                 11
             </div>
@@ -167,42 +135,93 @@ include("header.php");
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
- <i class="fas fa-chevron-left"></i>
- <i class="fas fa-chevron-right"></i>
- <i class="fas fa-times"></i>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
+    <i class="fas fa-times"></i>
+
+          <div class="col-md-2 col-sm-6">
+             <i class="fas fa-chevron-left"></i>
+          </div>
+
+          <div class="col-md-8 col-sm-12">
+              <img class="modal-content" id="img01">
+              <div id="caption"></div>
+          </div>
+
+          <div class="col-md-2 col-sm-6">
+               <i class="fas fa-chevron-right"></i>
+          </div>
+
 </div>
 
 <script type="text/javascript">
+        
+   
+
             //Image Modal
               // Get the modal
-              var modal = document.getElementById('myModal');
-
+               var modal = document.getElementById('myModal');
               // Get the image and insert it inside the modal - use its "alt" text as a caption
               var modalImg = document.getElementById("img01");
               var captionText = document.getElementById("caption");
+              var arr_img = [] ;
+              var arr_des = [] ;
+              // Modal Image
               $('img').click(function(){
                   modal.style.display = "block";
                   modalImg.src = this.src;
                   captionText.innerHTML = this.alt;
+                   var key=arr_img.indexOf(modalImg.src) ;
+                    if(key === 0){
+                        $(".fa-chevron-left").hide() ;
+                        $(".fa-chevron-right").show() ;
+                    }else if(key === arr_img.length-1){
+                        $(".fa-chevron-right").hide() ;
+                        $(".fa-chevron-left").show() ;
+                    }else{
+                        $(".fa-chevron-left").show() ;
+                        $(".fa-chevron-right").show() ;
+                    }                   
 
-              }) ;
-
-              // Get the <span> element that closes the modal
-              var i = document.getElementsByClassName("fa-times")[0];
-              // When the user clicks on <span> (x), close the modal
-              i.onclick = function() { 
-                  modal.style.display = "none";
+              }) ; 
+              // Next/Prev/Close Image
+                $(".fa-chevron-right").click(NextImg) ;
+                $(".fa-chevron-left").click(PrevImg) ;
+                $(".fa-times").click(CloseImg) ;
+                 
+              function NextImg(){
+                   var key=arr_img.indexOf(modalImg.src) ;
+                   key++ ;
+                   modal.style.display = "block";
+                   modalImg.src = arr_img[key];
+                   captionText.innerHTML = arr_des[key];
+                   if(key === arr_img.length-1)
+                    $(".fa-chevron-right").hide() ;
+                   else{
+                    $(".fa-chevron-left").show() ;
+                    $(".fa-chevron-right").show() ;
+                  }
               }
-              // $('.modal').click(function(){
-              //    modal.style.display = "none";
-              // }
-
+              function PrevImg(){
+                   var key=arr_img.indexOf(modalImg.src) ;
+                   modal.style.display = "block";
+                   key-- ;
+                   modalImg.src = arr_img[key] ;
+                   captionText.innerHTML = arr_des[key];  
+                   if(key === 0)
+                    $(".fa-chevron-left").hide() ;
+                   else{
+                    $(".fa-chevron-left").show() ;
+                    $(".fa-chevron-right").show() ;
+                  }                   
+              }
+              function CloseImg(){
+                   modal.style.display = "none";
+              }
+  
+             
 
 
             // Filter Product
-              filterSelection("All") ;
+             filterSelection("All") ;
               function filterSelection(c) {
                 var section, i;
                 section = document.getElementsByClassName("row");
@@ -213,12 +232,19 @@ include("header.php");
                   if (section[i].className.indexOf(c) > -1) 
                     w3AddClass(section[i], "show");
                   else
-                   w3AddClass(section[i], "hide");
-                  console.log(section[i]) ;
+                    w3AddClass(section[i], "hide");
                 }
              
                  $(".hide").hide(500) ;
                  $(".show").addClass("magictime swashIn") ; 
+
+                      //Dump all fillter img to array
+                      var img = $(".show img.img-thumbnail") ;
+                      for(var i=0 ; i<img.length ; i++){
+                        arr_img.push(img[i]['src']) ;
+                        arr_des.push(img[i]['alt']) ;
+                      }
+                  
               }
 
               function w3AddClass(element, name) {
@@ -240,8 +266,19 @@ include("header.php");
                   }
                 }
                 element.className = arr1.join(" ");
+
+                // Clear fillter
+                arr_img = [] ;
+                arr_des = [] ;
               }
-          </script>
+
+
+
+
+
+
+   
+  </script>
 
       
 
