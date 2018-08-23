@@ -8,7 +8,7 @@ include("header.php");
 </head>
 
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <header id="index" class="v-header container">
     <div class="fullscreen-video-wrap">
       <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
@@ -21,13 +21,14 @@ include("header.php");
       <h1>Welcome Everyone</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi ullam aperiam!</p>
       <a href="#about" class="btn">Find Out More</a>
+      </div>
   </header>
-</div>
+
 
 
 <!-- Section About -->
    <div id="about" class="container-fluid-nav about">
-      <nav class="navbar navbar-default" >    
+      <nav id="nav" class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="">    
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav">
               <span class="icon-bar"></span>
@@ -46,7 +47,14 @@ include("header.php");
           </div>
     </nav>
     <div class="container" style="padding:40px 0 ;">
-      <h2>About Us</h2>
+      <h2>ABOUT US</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
     </div>
    </div>
@@ -57,7 +65,7 @@ include("header.php");
    <div id="product" class="container-fluid product">
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <div class="container insidepageprod">
-          <h2>Our Product</h2>
+          <h2>OUR PRODUCT</h2>
           <div id="BtnFilter">
               <button type="button" class="btn btn-secondary" onclick="filterSelection('All')">All</button>
               <button type="button" class="btn btn-secondary" onclick="filterSelection('A')"> Type A</button>
@@ -172,7 +180,14 @@ include("header.php");
 <!-- Section Customer -->
  <div id="customer" class="container-fluid customer">
     <div class="container">
-      <h2>Our Customer</h2>
+      <h2>OUR CUSTOMER</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
     </div>
    </div>
@@ -180,12 +195,13 @@ include("header.php");
 
 <!-- Section Contact US -->
    <div id="contact-us" class="container-fluid contact-us">
-        <div class="container insidepagecontactus">
+        <div class="container">
+            <h2>CONTACT US</h2>
             <div class="col-md-6">
                 <div class="form-area">  
                     <form role="form">
                     <br style="clear:both">
-                                <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+                                <h3 style="margin-bottom: 25px; text-align: center;">Contact Details</h3>
                         <div class="form-group">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
                       </div>
@@ -203,15 +219,24 @@ include("header.php");
                                     <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
                                 </div>
                         
-                    <center><button type="button" id="submit" name="submit" class="btn btn-primary">Submit Form</button></center>
+                    <center><button type="button" id="submit" name="submit" class="btn btn-primary">Send Your Messages</button></center>
                     </form>
                 </div>
              </div>
             <div class="col-md-6">
                 <br style="clear:both">
-               <h3 style="margin-bottom: 25px; text-align:center;">Location</h3>
+               <h3 style="margin-bottom: 25px; text-align:center;">Direction to our Company</h3>
                <iframe id="map" frameborder="0" style="border:0"
             src="https://www.google.com/maps/embed/v1/place?q=%E0%B8%AB%E0%B8%88%E0%B8%81.%20%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B8%9B%20%E0%B9%81%E0%B8%A1%E0%B8%8A%E0%B8%8A%E0%B8%B5%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88%20Phahon%20Yothin%2048%20Alley%2C%20Lane%2060%2C%20Tha%20Raeng%2C%20Bang%20Khen%2C%20Bangkok&key=AIzaSyAiOaOaOqtypn-v_8FVNIoh2fFsUNYJ4_4" allowfullscreen></iframe>
+            <div class="location">
+               <p><h5> Thongpratheep Machinery Ltd.,& Part</h5></p>
+               <p><i class="fas fa-home"></i> 43 Paholyothin 48 Yaek 60 Tharang BangKhen Bangkok 10220</p>
+               <p><i class="fas fa-map-marker-alt"></i> OPENING HOURS:Monday – Saturday: 8.00 am – 17.00pm [*Sunday only by appointment]</p>
+               <p><i class="fas fa-mobile-alt"></i> 0868890226,0894077868</p>
+               <p><i class="fas fa-fax"></i> 02-88888888</p>
+               <p><i class="fas fa-envelope"></i> tpmlp.work@gmail.com</p>
+            </div>
+               
             </div>
         </div>
    </div>
@@ -336,11 +361,7 @@ include("header.php");
 
                 </script>
 
-<script>
-$(document).ready(function(){
-    $('body').scrollspy({target: ".navbar", offset: 50});   
-});
-</script>
+
 </body>
 
 </html>

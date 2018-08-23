@@ -85,7 +85,7 @@ body{
 }
 
 .product{
-  background:#333;
+  background:#225470;
   color:#fff;
 }
 
@@ -94,7 +94,7 @@ body{
 }
 
 .contact-us{
-  background:#333;
+  background:#225470;
   color:#fff;
 }
 
@@ -106,10 +106,11 @@ body{
   }
 }
 
-/*Navbar*/
+/*Navbar #62706e*/
   .navbar {
       margin-bottom: 0;
-      background-color: #34b3a0;
+       background-color:#22547000;
+  	
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -129,8 +130,24 @@ body{
       border-color: transparent;
       color: #fff !important;
   }
+   .affix {
+   	position: fixed ;
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: #62706e;
+  }
+   .affix ~ .container-fluid {
+     position: relative;
+     top: 60px;
+     
+  }
 
 
+/*thumbnail img*/
+.img-thumbnail {
+padding: 1px;
+}
 
 
 
@@ -139,18 +156,15 @@ body{
 /*Map*/
 
  #map{
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
+        height: 300px;  
+        width: 100%;  
+}
+.location{
+	font-size: 10px;
+	text-align: left ;
 }
  
-/*#image-gallery .modal-footer{
-  display: block;
-}
 
-.thumb{
-  margin-top: 15px;
-  margin-bottom: 15px;
-}*/
 /*Modal Image*/
 #myImg {
     border-radius: 5px;
