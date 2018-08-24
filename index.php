@@ -28,24 +28,26 @@ include("header.php");
 
 <!-- Section About -->
    <div id="about" class="container-fluid-nav about">
-      <nav id="nav" class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="">    
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-            </button>
-            <a class="navbar-brand" href="#index">TPMLP</a>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#product">PRODUCT</a></li>
-              <li><a href="#customer">CUSTOMER</a></li>
-              <li><a href="#contact-us">CONTACT US</a></li>
-            </ul>
-          </div>
-    </nav>
+      <nav id="nav" class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top=""> 
+        <div class="container">  
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>
+              <a class="navbar-brand" href="#index">TPMLP</a>
+            </div>
+            <div class="collapse navbar-collapse topBotomBordersOut" id="navbarNav">
+              <ul id="ul-nav" class="nav navbar-nav navbar-right">
+                <li><a href="#about"><span>เกี่ยวกับเรา</span></a></li>
+                <li><a href="#product"><span>ผลงาน</span></a></li>
+                <li><a href="#customer"><span>ลูกค้า</span></a></li>
+                <li><a href="#contact-us"><span>ติดต่อ</span></a></li>
+              </ul>
+            </div>
+        </div> 
+      </nav>
     <div class="container" style="padding:40px 0 ;">
       <h2>ABOUT US</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>

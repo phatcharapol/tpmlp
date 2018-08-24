@@ -1,3 +1,6 @@
+
+/*Font Thai*/
+@import url('https://fonts.googleapis.com/css?family=Kanit');
 /* Bg Video*/
   *{
   box-sizing: border-box;
@@ -5,7 +8,7 @@
 
 body{
   margin:0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size:1rem;
   font-weight:normal;
   line-height:1.5;
@@ -106,42 +109,54 @@ body{
   }
 }
 
-/*Navbar #62706e*/
+/*Navbar */
   .navbar {
       margin-bottom: 0;
-       background-color:#22547000;
-  	
+      background-color:#22547000;
       z-index: 9999;
       border: 0;
-      font-size: 12px !important;
+      font-size: 12px;
       line-height: 1.42857143 !important;
       letter-spacing: 4px;
       border-radius: 0;
-      font-family: Montserrat, sans-serif;
+      transition-duration: 0.5s;
   }
-  .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
+  .navbar .navbar-brand {
+    /*brand imh wait edit*/
+      color: red ;
   }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #34b3a0 !important;
-      background-color: #fff !important;
+   .navbar-nav li a span{
+       color: #FFFFFF ;
+   }
+  .navbar-nav li a:hover span, .navbar-nav li.active a span{
+      color: #BB9453;
+      font-size: 13px;
+      background-color: #22547000 !important;
+      border-bottom: 2px solid #BB9453;
+      transition: all 0.1s;
+  }
+  li.active{
+    background-color: #22547000;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-      color: #fff !important;
   }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #ffffff;
+}
    .affix {
    	position: fixed ;
     top:0;
     width: 100%;
-    z-index: 9999 !important;
-    background-color: #62706e;
+     border-bottom: 2px solid #80808017;
+ /*   z-index: 9999 ;*/
+    background-color:#FFFFFF;
   }
-   .affix ~ .container-fluid {
-     position: relative;
-     top: 60px;
-     
+   .affix li a span{
+   color:black;
   }
+
+
 
 
 /*thumbnail img*/
