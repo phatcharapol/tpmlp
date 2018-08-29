@@ -13,14 +13,15 @@ include("header.php");
     <div class="fullscreen-video-wrap">
       <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
       <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
-      <video src="asset/bgvideo.mov" autoplay="" loop="">
+      <video src="asset/bgvideo.mp4" autoplay loop muted>
     </video>
     </div>
     <div class="header-overlay"></div>
     <div class="header-content text-md-center animated fadeInUp">
       <h1>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่</h1>
+      <br><br>
       <p>รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล</p>
-      <a href="#about" class="btn scrollanimate">Find Out More</a>
+      <a href="#about" class="scrollanimate"><i class="fas fa-arrow-down"></i></a>
       </div>
   </header>
   
@@ -59,7 +60,7 @@ include("header.php");
       </div>
       <div class="col-md-5" style="padding-top: 100px">
           <!-- carousel -->
-      <div class="ma5slider inside-navs inside-dots loop-mode autoplay imgBorder" data-tempo="3500">
+      <div class="ma5slider inside-navs inside-dots loop-mode autoplay carouselBorder" data-tempo="3500">
             <div class="slides">
                 <!-- children = slides -->
                 <a href="#slide-1"><img src="asset/about/1.jpg" alt=""></a>
@@ -94,29 +95,29 @@ include("header.php");
 
             <div class="row column product-type" style="padding:10px">
                     <div class="col-md-4 col-sm-4 thumb">                     
-                            <img class="img-thumbnail" src="asset/product/1.jpg" alt="Description Item....1" >
+                            <figure><img class="img-thumbnail" src="asset/product/1.jpg" alt="Description Item....1"></figure>
                             <p> งานสร้างเครื่องจักร </p>                   
                     </div>
                     <div class="col-md-4 col-sm-4 thumb">                     
-                            <img class="img-thumbnail" src="asset/product/2.jpg" alt="Description Item....2">
+                            <figure><img class="img-thumbnail" src="asset/product/2.jpg" alt="Description Item....2"></figure>
                            <p> งานผลิตชื้นส่วน </p> 
                     </div>
                     <div class="col-md-4 col-sm-4 thumb">        
-                            <img class="img-thumbnail" src="asset/product/3.jpg" alt="Description Item....3">
+                            <figure><img class="img-thumbnail" src="asset/product/3.jpg" alt="Description Item....3"></figure>
                          <p> งานเชื่อมโครงสร้าง </p> 
                     </div>   
             </div>
             <div class="row column product-type">
                  <div class="col-md-4 col-sm-4 thumb">        
-                            <img class="img-thumbnail" src="asset/product/4.jpg" alt="Description Item....5">
+                            <figure><img class="img-thumbnail" src="asset/product/4.jpg" alt="Description Item....5"></figure>
                         <p> งานออกแบบ </p> 
                     </div>
                  <div class="col-md-4 col-sm-4 thumb">            
-                            <img class="img-thumbnail" src="asset/product/5.jpg" alt="Description Item....6">                  
+                            <figure><img class="img-thumbnail" src="asset/product/5.jpg" alt="Description Item....6"></figure>                  
                         <p> งานซ่อมบำรุง </p> 
                     </div>
                  <div class="col-md-4 col-sm-4 thumb">                    
-                            <img class="img-thumbnail" src="asset/product/6.jpg" alt="Description Item....7">         
+                            <figure><img class="img-thumbnail" src="asset/product/6.jpg" alt="Description Item....7"></figure>         
                         <p> งานดัดแปลง </p> 
                     </div>
             </div>
@@ -146,18 +147,77 @@ include("header.php");
    </div>
 <!-- Section Customer -->
  <div id="customer" class="container-fluid customer">
-    <div class="container">
-      <h2>ลูกค้าของเรา</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, impedit amet minima iste autem cumque et maiores blanditiis doloribus aut dolorum quaerat non est voluptatum, tempore ut dolorem voluptas quod quae accusantium, ex inventore ducimus. Beatae mollitia exercitationem, quam similique, consectetur ratione reprehenderit delectus neque eligendi facere soluta dolor ducimus!</p>
+  <div class="container">
+
+      <h1 class="my-4 text-center text-lg-left">Thumbnail Gallery</h1>
+
+      <div class="row text-center text-lg-left">
+
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+      </div>
+
     </div>
-   </div>
+
+</div>
 
 
 <!-- Section Contact US -->
@@ -210,8 +270,8 @@ include("header.php");
                <p><i class="fas fa-clock"></i> เปิดให้บริการ : จันทร์ – เสาร์ เวลา 8.00  – 17.00 </p>
                <p><i class="fas fa-mobile-alt"></i> 086 889 0226,083 014 6160</p>
                <p><i class="fas fa-fax"></i> 02-8888 8888</p>
-               <p><i class="fas fa-envelope"></i> tpmlp.work@gmail.com</p>
-               <p><i class="fab fa-facebook-square"></i><a id="link" href="https://www.facebook.com/Thongpratheepmahinenery/"> facebook.com/Thongpratheepmahinenery/</a></p>
+               <p><i class="fas fa-envelope"></i> tpmlp.work@gmail.com</p>   
+               <p><i class="fab fa-facebook-square"></i><a id="link" href="https://www.facebook.com/Thongpratheepmahinenery/"> facebook.com/ThongpratheepMahinenery </a></p>
                <p><i class="fab fa-line"></i><a id="link" href="http://line.me/ti/p/~nuttsna"> @tpmlp</a></p>
     
             </div>
@@ -219,6 +279,32 @@ include("header.php");
             </div>
         </div>
    </div>
+
+
+   <!-- Footer -->
+<footer class="page-footer">
+
+ 
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+          
+            <div class="line1">
+                <p>  ติดตามเราได้ที่ </p>
+                <p> <a id="link" href="https://www.facebook.com/Thongpratheepmahinenery/"> <img class="img-follow" src="asset/icon/icon-fb.png">  ThongpratheepMahinenery</a> </p>
+                <p><a id="link" href="http://line.me/ti/p/~nuttsna"><img class="img-follow" src="asset/icon/icon-line.png"> @ThongpratheepMahinenery</a></p>
+            </div>
+            <div class="line2">
+                <p>©2018 www.tpm.com All rights reserved | Powered by NUTZA007</p>
+            </div>
+       
+          </div>
+        </div>
+      </div>
+
+ 
+</footer>
+<!-- Footer -->
 
 
 
