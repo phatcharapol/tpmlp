@@ -37,13 +37,42 @@ body{
   left:0;
   width:100%;
   height:100vh;
-  overflow:hidden;
+  overflow:hidden; 
+
 }
 
 .fullscreen-video-wrap video{
-  min-height:100%;
-  min-width:100%;
+/*  min-height:100%;
+  min-width:100%;*/
+
+  display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
+
+.fullscreen-video-wrap img{
+/*  min-height:100%;
+  min-width:100%;*/
+
+  display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
 
 .header-overlay{
   height:100vh;
@@ -52,7 +81,7 @@ body{
   left:0;
   width:100vw;
   z-index:1;
-  background:#000000;
+  background:#000000b3;
   opacity:0.85;
 }
 
@@ -95,20 +124,20 @@ header i.fa-arrow-down{
 }
 
 .about{
-background:#DDDDDD;
+background:#FFFFFF;
 font-size:20px;
 }
 
 
 .product{
-  background:#225470;
+  background:#31708f;
   color:#fff;
 }
 .product p{
   font-size:15px;
 }
 .product .product-type p{
-  font-size:20px;
+  /*font-size:20px;*/
 }
 
 .customer{
@@ -121,7 +150,7 @@ font-size:20px;
 
 /*section ContactUS*/
 .contact-us{
-  background:#225470;
+  background:#31708f;
   color:#fff;
 }
 .contact-channel{
@@ -143,45 +172,43 @@ font-size:20px;
       background-color:#22547000;
       z-index: 9999;
       border: 0;
-      font-size: 14px;
-      line-height: 1.42857143 !important;
-      letter-spacing: 4px;
+      font-size: 16px;
+      line-height: 1.4285714px !important;
+      letter-spacing: 2px;
       border-radius: 0;
       transition-duration: 0.5s;
+      padding: 10px;
   }
   .navbar .navbar-brand {
-    /*brand imh wait edit*/
-      color: red ;
+   background: url(../asset/logo/logo.png) center / contain no-repeat;
+  width: 200px;
   }
    .navbar-nav li a span{
        color: #FFFFFF ;
    }
   .navbar-nav li a:hover span, .navbar-nav li.active a span{
-      color: #FF9622;
-      font-size: 15px;
-      background-color: #22547000 !important;
-      border-bottom: 2px solid #FF9622;
+      color: #1E94CC;
       transition: all 0.2s;
   }
   li.active{
-    background-color: #22547000;
+     color: #1E94CC;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
   }
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #ffffff;
+    background-color: #00000000;
+    transition-duration: 0.8s;
 }
    .affix {
    	position: fixed ;
     top:0;
     width: 100%;
-     border-bottom: 2px solid #E2E2E2;
  /*   z-index: 9999 ;*/
-    background-color:#FFFFFF;
+    background-color:rgba(34, 34, 34, 1);
   }
    .affix li a span{
-   color:black;
+   color:white;
   }
 
 
@@ -196,24 +223,29 @@ figure:hover+span {
 
   opacity: 1;
 }
-.img-thumbnail {
-padding: 1px;
-}
+
+
 /* Zoom In #1 */
 figure img {
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 figure:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
    transition: 0.5s
 }
 
 
 
+.img-thumbnail{
+  padding: 1px;
+
+   background-color:#00000000;
+   border: 1px solid #00000000;
+  }
 
 
 /*Map*/
@@ -226,12 +258,12 @@ figure:hover img {
 	font-size: 13px;
 	text-align: left ;
 }
-#link{
+a {
   color: white;
   text-decoration: none;
 }
-#link:hover{
-  color: #cecece;
+a:hover{
+  color: #30a7dd;
   text-decoration: none;
 }
  
@@ -358,7 +390,7 @@ footer.page-footer {
     background-color:#1E282D;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0 0 20px;
 
     height: auto;
     
@@ -381,11 +413,27 @@ footer.page-footer {
     font-size: 14px;
     
   }
+   footer.page-footer .line2 p a{
+   
+    color:#1E94CC;
+    
+  }
+     footer.page-footer .line2 p a:hover{
+   
+    color:#32b3ef;
+    
+  }
   /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 617px){
     footer.page-footer .line1 p {
   
         display: block;
+        padding: 0px 0 0 ;
+    }
+     footer.page-footer .line2 p {
+  
+        display: block;
+        padding: 0px 0 15px;
     }
 }
  img.img-follow{

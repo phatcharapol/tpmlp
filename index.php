@@ -13,16 +13,19 @@ include("header.php");
     <div class="fullscreen-video-wrap">
       <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
       <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
-      <video src="asset/bgvideo.mp4" autoplay loop muted>
-    </video>
+  <!--     <video src="asset/bgvideo.mp4" autoplay loop muted>
+    </video> -->
+    <img src="asset/about/3.jpg">
     </div>
     <div class="header-overlay"></div>
     <div class="header-content text-md-center animated fadeInUp">
-      <h1>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่</h1>
-      <br><br>
-      <p>รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล</p>
-      <a href="#about" class="scrollanimate"><i class="fas fa-arrow-down"></i></a>
+      <div class="container">
+        <h1>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่</h1>
+        <br><br>
+        <p>รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล</p>
+        <a href="#about" class="scrollanimate"><i class="fas fa-arrow-down"></i></a>
       </div>
+    </div>
   </header>
   
   <!-- Nav -->
@@ -34,7 +37,7 @@ include("header.php");
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span> 
               </button>
-              <a class="navbar-brand scrollanimate" href="#index">TPMLP</a>
+              <a class="navbar-brand scrollanimate" href="#index"></a>
             </div>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul id="ul-nav" class="nav navbar-nav navbar-right">
@@ -86,46 +89,51 @@ include("header.php");
         <div class="container insidepageprod">
           <h2>ผลงานของเรา</h2>
          <p> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
-      <!--     <div id="BtnFilter">
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('All')">All</button>
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('A')"> Type A</button>
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('B')"> Type B</button>
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('C')"> Type C</button>
-          </div> -->
 
-            <div class="row column product-type" style="padding:10px">
-                    <div class="col-md-4 col-sm-4 thumb">                     
-                            <figure><img class="img-thumbnail" src="asset/product/1.jpg" alt="Description Item....1"></figure>
-                            <p> งานสร้างเครื่องจักร </p>                   
-                    </div>
-                    <div class="col-md-4 col-sm-4 thumb">                     
-                            <figure><img class="img-thumbnail" src="asset/product/2.jpg" alt="Description Item....2"></figure>
-                           <p> งานผลิตชื้นส่วน </p> 
-                    </div>
-                    <div class="col-md-4 col-sm-4 thumb">        
-                            <figure><img class="img-thumbnail" src="asset/product/3.jpg" alt="Description Item....3"></figure>
-                         <p> งานเชื่อมโครงสร้าง </p> 
-                    </div>   
-            </div>
-            <div class="row column product-type">
-                 <div class="col-md-4 col-sm-4 thumb">        
-                            <figure><img class="img-thumbnail" src="asset/product/4.jpg" alt="Description Item....5"></figure>
-                        <p> งานออกแบบ </p> 
-                    </div>
-                 <div class="col-md-4 col-sm-4 thumb">            
-                            <figure><img class="img-thumbnail" src="asset/product/5.jpg" alt="Description Item....6"></figure>                  
-                        <p> งานซ่อมบำรุง </p> 
-                    </div>
-                 <div class="col-md-4 col-sm-4 thumb">                    
-                            <figure><img class="img-thumbnail" src="asset/product/6.jpg" alt="Description Item....7"></figure>         
-                        <p> งานดัดแปลง </p> 
-                    </div>
-            </div>
-  
+
+            <div class="product-type" style="padding:10px">
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure>
+                    <p> งานสร้างเครื่องจักร </p>   
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                     <figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure>
+                     <p> งานผลิตชื้นส่วน </p>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure>
+                    <p> งานเชื่อมโครงสร้าง </p>
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                     <figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure>
+                     <p> งานออกแบบ </p> 
+                  </a>
+                </div>
+                 <div class="col-lg-3 col-md-4 col-xs-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                    <figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure>
+                    <p> งานซ่อมบำรุง </p> 
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6">
+                  <a href="#" class="d-block mb-4 h-100">
+                     <figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure>
+                     <p> งานดัดแปลง </p>
+                  </a>
+                </div>
           </div>
+        </div>
+
 
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+ <!--        <div id="myModal" class="modal">
             <i class="fas fa-times"></i>
 
                   <div class="col-md-2 col-sm-6">
@@ -141,7 +149,7 @@ include("header.php");
                        <i class="fas fa-chevron-right"></i>
                   </div>
 
-        </div>
+        </div> -->
 
       
    </div>
@@ -149,70 +157,60 @@ include("header.php");
  <div id="customer" class="container-fluid customer">
   <div class="container">
 
-      <h1 class="my-4 text-center text-lg-left">Thumbnail Gallery</h1>
+      <h1 class="my-4 text-center text-lg-left">ลูกค้าของเรา</h1>
 
       <div class="row text-center text-lg-left">
 
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+           <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+           <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
+         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
+         <div class="col-lg-3 col-md-4 col-xs-6">
           <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+            
           </a>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
+       
+   
       </div>
 
     </div>
@@ -230,19 +228,19 @@ include("header.php");
                     <br style="clear:both">
                                 <h3 style="margin-bottom: 25px; text-align: center;">ข้อมูลการติดต่อกลับ</h3>
                         <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="ชื่อผู้ติดต่อ" required>
                       </div>
                       <div class="form-group">
-                        <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="อีเมลล์" required>
                       </div>
                       <div class="form-group">
-                        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="เบอร์โทรศัพท์" required>
                       </div>
                       <div class="form-group">
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="เรื่อง" required>
                       </div>
                                 <div class="form-group">
-                                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                                <textarea class="form-control" type="textarea" id="message" placeholder="รายละเอียด" maxlength="140" rows="7"></textarea>
                                     <span class="help-block"><p id="characterLeft" class="help-block "  style="color:white;font-weight: 30px">*เมื่อเราได้รับเมลล์เราจะติดต่อกลับโดยทันที</p></span>                    
                                 </div>
                         
@@ -295,7 +293,7 @@ include("header.php");
                 <p><a id="link" href="http://line.me/ti/p/~nuttsna"><img class="img-follow" src="asset/icon/icon-line.png"> @ThongpratheepMahinenery</a></p>
             </div>
             <div class="line2">
-                <p>©2018 www.tpm.com All rights reserved | Powered by NUTZA007</p>
+                <p>Thongpratheep Mahinenery ©2018 All rights reserved | Powered by<a href="https://www.facebook.com/phatcharapol.nut"> PHATCHARAPOL T.</a></p>
             </div>
        
           </div>
@@ -306,7 +304,12 @@ include("header.php");
 </footer>
 <!-- Footer -->
 
-
+      <!--<div id="BtnFilter">
+              <button type="button" class="btn btn-secondary" onclick="filterSelection('All')">All</button>
+              <button type="button" class="btn btn-secondary" onclick="filterSelection('A')"> Type A</button>
+              <button type="button" class="btn btn-secondary" onclick="filterSelection('B')"> Type B</button>
+              <button type="button" class="btn btn-secondary" onclick="filterSelection('C')"> Type C</button>
+          </div> -->
 
 
 <!-- 

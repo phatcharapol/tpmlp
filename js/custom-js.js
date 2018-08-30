@@ -5,7 +5,8 @@ $( document ).ready(function() {
 // Dynamic data-offset-top nav
 	var nav=$('#nav');
 	var navv=nav[0] ;
-	var height=$('header').height();
+	// var height=$('header').height();
+	var height = 100;
 	$(navv).attr("data-offset-top",height) ;
 
 // Scroll Animate
