@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 62.5%; /*  1rem  = 10px */
+}
 body{
   margin:0;
   font-family: 'Kanit', sans-serif;
@@ -91,30 +94,29 @@ body{
 
 .header-content h1{
   position: center;
-  font-size:3rem;
+  font-size:3em;
   margin-bottom:0;
 }
 
 .header-content p{
-  text-align: left;
-  font-size:1.5rem;
+  text-align: center;
+  font-size:1.5em;
   display:block;
   padding-bottom:2rem;
 }
 header i.fa-arrow-down{
 
     color: #f1f1f1;
-    font-size: 40px;
+    font-size: 4em;
     font-weight: bold;
     transition: 0.3s;
-    bottom: 20px;
-
 }
 
+
 .btn{
-  background: #34b3a0;
+  background: #1E94CC;
   color:#fff;
-  font-size:1.2rem;
+  font-size:1.5rem;
   padding: 1rem 2rem;
   text-decoration: none;
 }
@@ -125,7 +127,14 @@ header i.fa-arrow-down{
 
 .about{
 background:#FFFFFF;
-font-size:20px;
+font-size:1.5em;
+}
+
+ @media only screen and (min-width: 992px){
+ .about .carousel-about {
+    padding-top: 65px ;
+  }
+
 }
 
 
@@ -134,11 +143,18 @@ font-size:20px;
   color:#fff;
 }
 .product p{
-  font-size:15px;
+  font-size:1.5em;
 }
 .product .product-type p{
-  /*font-size:20px;*/
+  font-size:1.6em;
 }
+ @media only screen and (max-width: 365px){
+ .product .product-type p{
+  font-size:1.3em;
+}
+
+}
+
 
 .customer{
 
@@ -195,7 +211,9 @@ font-size:20px;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
+     
   }
+ 
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: #00000000;
     transition-duration: 0.8s;
@@ -210,6 +228,16 @@ font-size:20px;
    .affix li a span{
    color:white;
   }
+ @media only screen and (max-width: 767px){
+ .navbar {
+    background: #23292c;
+    padding: 10px 0;
+ 
+  }
+ .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:#83858a7d;
+  }
+}
 
 
 
@@ -247,7 +275,11 @@ figure:hover img {
    border: 1px solid #00000000;
   }
 
-
+/*Form*/
+.contact-form .help-block{
+  color:yellow;
+  font-weight: 3em;
+}
 /*Map*/
 
  #map{
@@ -255,7 +287,7 @@ figure:hover img {
         width: 100%;  
 }
 .location{
-	font-size: 13px;
+	font-size: 1.4em;
 	text-align: left ;
 }
 a {

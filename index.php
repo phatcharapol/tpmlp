@@ -22,10 +22,14 @@ include("header.php");
       <div class="container">
         <h1>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่</h1>
         <br><br>
-        <p>รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล</p>
-        <a href="#about" class="scrollanimate"><i class="fas fa-arrow-down"></i></a>
+        <p>รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง </p> 
+          <a href="#about" class="scrollanimate"><button type="button" class="btn">เกี่ยวกับเรา</button></a>
       </div>
     </div>
+
+     
+    
+     
   </header>
   
   <!-- Nav -->
@@ -54,14 +58,14 @@ include("header.php");
 <!-- Section About -->
    <div id="about" class="container-fluid-nav about">
  
-    <div class="container" style="padding:60px 0 ;">
+    <div class="container" style="padding:6em 0">
       <div class="col-md-7" style="text-align: left">
       <h2>เกี่ยวกับเรา</h2>
       <p>บริษัท ชาญชัย เวิร์ค เอ็นจิเนียริ่ง จำกัด ดำเนินธุรกิจเกี่ยวกับการออกแบบไฟฟ้าและสื่อสาร, FIRE ALARM, ระบบปรับอากาศ, CCTV, MATV, SOUND และจัดจำหน่ายอุปกรณ์ไฟฟ้าทุกชนิด ทั้งโรงงาน อาคาร บ้าน บริษัทฯ มีนโยบายที่จะขยายตลาดไปสู่กลุ่มลูกค้าทุกแขนง โดยรับประกันคุณภาพของผลงาน และราคาย่อมเยา ดำเนินงานโดยทีมวิศวกรและช่างผู้ชำนาญการมากกว่า 10 ปี
 อีกทั้งบริษัทฯ ยังรับผลิตตู้ MDB, PANEL, โครงตู้น้ำมัน, โครงตู้เติมเงินออนไลน์ และตู้อุปกรณ์ไฟฟ้าต่าง ๆ เป็นต้น รวมถึงรับผลิตชิ้นส่วนเครื่องจักรอุตสาหกรรมตามแบบ
 บริษัทฯ ดำเนินการทำงานตามหลักของสภาวิศวกรรมแห่งประเทศไทย (วศท.) เพื่อให้ได้งานที่มีคุณภาพมาตรฐานระดับสากล เราเติบโตไปพร้อมกับการขยายธุรกิจของลูกค้า เราได้รับความไว้วางใจจากลูกค้าเสมอมา อันแสดงความถึงความเชื่อมั่นในความรับผิดชอบต่องานที่ได้รับมอบหมาย เราพึงตระหนักถึงความไว้วางใจจากลูกค้า เราจึงทำงานด้วยความซื่อสัตย์และซื่อตรงเพื่อรักษาคุณภาพของการบริการ โดยเน้นการบริการลูกค้าด้วยความจริงใจ</p>
       </div>
-      <div class="col-md-5" style="padding-top: 100px">
+      <div class="col-md-5 carousel-about">
           <!-- carousel -->
       <div class="ma5slider inside-navs inside-dots loop-mode autoplay carouselBorder" data-tempo="3500">
             <div class="slides">
@@ -86,12 +90,12 @@ include("header.php");
 <!-- Section Product -->
    <div id="product" class="container-fluid product">
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <div class="container insidepageprod">
+        <div class="container">
           <h2>ผลงานของเรา</h2>
          <p> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
 
 
-            <div class="product-type" style="padding:10px">
+            <div class="product-type" style="padding:1.5em">
                 <div class="col-lg-3 col-md-4 col-xs-6">
                   <a href="#" class="d-block mb-4 h-100">
                     <figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure>
@@ -157,7 +161,7 @@ include("header.php");
  <div id="customer" class="container-fluid customer">
   <div class="container">
 
-      <h1 class="my-4 text-center text-lg-left">ลูกค้าของเรา</h1>
+      <h2>ลูกค้าของเรา</h2>
 
       <div class="row text-center text-lg-left">
 
@@ -222,31 +226,37 @@ include("header.php");
    <div id="contact-us" class="container-fluid contact-us">
         <div class="container">
             <h2>ติดต่อเรา</h2>
-            <div class="col-md-6">
-                <div class="form-area">  
-                    <form role="form">
+            <div class="col-md-6" >
+                <div class="contact-form">  
+                    <form id="contactForm">
                     <br style="clear:both">
                                 <h3 style="margin-bottom: 25px; text-align: center;">ข้อมูลการติดต่อกลับ</h3>
-                        <div class="form-group">
+
+                      <div class="form-group">
                         <input type="text" class="form-control" id="name" name="name" placeholder="ชื่อผู้ติดต่อ" required>
                       </div>
+
                       <div class="form-group">
-                        <input type="text" class="form-control" id="email" name="email" placeholder="อีเมลล์" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="อีเมลล์" required>
                       </div>
+
                       <div class="form-group">
-                        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="เบอร์โทรศัพท์" required>
+                        <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="เบอร์โทรศัพท์" required>
                       </div>
+
                       <div class="form-group">
                         <input type="text" class="form-control" id="subject" name="subject" placeholder="เรื่อง" required>
                       </div>
-                                <div class="form-group">
-                                <textarea class="form-control" type="textarea" id="message" placeholder="รายละเอียด" maxlength="140" rows="7"></textarea>
-                                    <span class="help-block"><p id="characterLeft" class="help-block "  style="color:white;font-weight: 30px">*เมื่อเราได้รับเมลล์เราจะติดต่อกลับโดยทันที</p></span>                    
-                                </div>
+
+                      <div class="form-group">
+                          <textarea class="form-control" type="textarea" id="messages" name="messages" placeholder="รายละเอียด" maxlength="140" rows="7"></textarea>                         
+                      </div>
                         
-                    <center><button type="button" id="submit" name="submit" class="btn btn-primary">ส่งข้อความ</button></center>
+                    <center><button type="submit" name="submit" class="btn">ส่งข้อความ</button></center>
 
                     </form>
+                      <span class="help-block"><p id="characterLeft" class="help-block ">***เมื่อเราได้รับเมลล์เราจะติดต่อกลับโดยทันที</p></span> 
+                      <div id="msgSubmit" class="h3 text-center"></div>
                 </div>
 
                 
@@ -256,7 +266,7 @@ include("header.php");
                           <p><i class="fab fa-facebook-square"></i><a id="link" href="https://www.facebook.com/Thongpratheepmahinenery/"> facebook.com/Thongpratheepmahinenery/</a></p>
                           <p><i class="fab fa-line"></i><a id="link" href="http://line.me/ti/p/~nuttsna"> @tpmlp</a></p>
                 </div> -->
-             </div>
+            </div>
             <div class="col-md-6">
                 <br style="clear:both">
                <h3 style="margin-bottom: 25px; text-align:center;">แผนที่</h3>
@@ -303,6 +313,15 @@ include("header.php");
  
 </footer>
 <!-- Footer -->
+<script src="process_script.js"></script>
+
+<script type="text/javascript">
+  $("#contactForm").submit(function(event){
+    // cancels the form submission
+    event.preventDefault();
+    submitForm();
+});
+</script>
 
       <!--<div id="BtnFilter">
               <button type="button" class="btn btn-secondary" onclick="filterSelection('All')">All</button>
