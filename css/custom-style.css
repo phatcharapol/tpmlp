@@ -8,15 +8,37 @@
 
 html{
   font-size: 62.5%; /*  1rem  = 10px */
+
 }
 body{
   margin:0;
   font-family: 'Kanit', sans-serif;
   font-size:1rem;
-  font-weight:normal;
-  line-height:1.5;
+  font-weight:400;
+  line-height:30px;
   color:#333;
   overflow-x:hidden;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    line-height: 64px;
+}
+h2{
+    font-size: 44px;
+    line-height: 64px;
+}
+ @media only screen and (max-width: 992px){
+  h1{
+     font-size: 38px;
+    margin-bottom: 0;
+
+  }
+  h2{
+      font-size: 30px;
+
+  }
+
 }
 
 .v-header{
@@ -94,8 +116,6 @@ body{
 
 .header-content h1{
   position: center;
-  font-size:3em;
-  margin-bottom:0;
 }
 
 .header-content p{
@@ -119,6 +139,15 @@ header i.fa-arrow-down{
   font-size:1.5rem;
   padding: 1rem 2rem;
   text-decoration: none;
+  border-radius: 10px;
+}
+.btn:hover{
+  background: #23292C;
+  color:#fff;
+  font-size:1.5rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 .container-fluid{
@@ -132,7 +161,7 @@ font-size:1.5em;
 
  @media only screen and (min-width: 992px){
  .about .carousel-about {
-    padding-top: 65px ;
+    padding-top: 95px ;
   }
 
 }
@@ -154,6 +183,16 @@ font-size:1.5em;
 }
 
 }
+
+ .product-description {
+    padding: 5px;
+    text-align: center;
+    background-color: #c4d4c1;
+    border-radius: 0px 0px 15px 15px;
+    -moz-border-radius: 0px 0px 15px 15px;
+    -webkit-border-radius: 0px 0px 15px 15px;
+    border: 0px solid #000000;
+  }
 
 
 .customer{
@@ -200,11 +239,14 @@ font-size:1.5em;
   width: 200px;
   }
    .navbar-nav li a span{
-       color: #FFFFFF ;
+       color: #FFFFFF ;       
    }
   .navbar-nav li a:hover span, .navbar-nav li.active a span{
       color: #1E94CC;
+      -webkit-transition: all 0.2s; /* For Safari 3.1 to 6.0 */
       transition: all 0.2s;
+      font-size: 17.5px;
+
   }
   li.active{
      color: #1E94CC;
@@ -216,7 +258,7 @@ font-size:1.5em;
  
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: #00000000;
-    transition-duration: 0.8s;
+    transition-duration: 0.5s;
 }
    .affix {
    	position: fixed ;
@@ -280,10 +322,15 @@ figure:hover img {
   color:yellow;
   font-weight: 3em;
 }
+@media screen and (max-width: : 320px){ #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;} }
+#rc-imageselect {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;} 
+#msgerr{
+  color:red;
+}
 /*Map*/
 
  #map{
-        height: 300px;  
+        height: 340px;  
         width: 100%;  
 }
 .location{
@@ -472,5 +519,21 @@ footer.page-footer {
   height: 20px ;
   width:20px;
  }
+
+/*
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }*/
+.spinner {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+
+  background: url(../asset/icon/loading.gif) center no-repeat #fff;
+  background-color: #d4e8fd;
+}
+
 
 

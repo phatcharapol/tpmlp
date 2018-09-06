@@ -1,5 +1,6 @@
 <?php
 include("header.php");
+ session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -8,7 +9,15 @@ include("header.php");
 </head>
 
 
+<div class="spinner">
+<!--   <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div> -->
+</div>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
 <header id="index" class="v-header container">
     <div class="fullscreen-video-wrap">
       <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
@@ -67,20 +76,14 @@ include("header.php");
       </div>
       <div class="col-md-5 carousel-about">
           <!-- carousel -->
-      <div class="ma5slider inside-navs inside-dots loop-mode autoplay carouselBorder" data-tempo="3500">
-            <div class="slides">
-                <!-- children = slides -->
-                <a href="#slide-1"><img src="asset/about/1.jpg" alt=""></a>
-                <a href="#slide-2"><img src="asset/about/2.jpg" alt=""></a>
-                <a href="#slide-3"><img src="asset/about/3.jpg" alt=""></a>
-                <a href="#slide-4"><img src="asset/about/4.jpg" alt=""></a>
-                <a href="#slide-5"><img src="asset/about/5.jpg" alt=""></a>
-                <a href="#slide-6"><img src="asset/about/6.jpg" alt=""></a>
-            </div>
-        </div>
-
-  
-    
+                        <div class="owl-carousel owl-theme about">
+                          <div class="item-about"><img src="asset/about/1.jpg" alt=""></div>
+                          <div class="item-about"><img src="asset/about/2.jpg" alt=""></div>
+                          <div class="item-about"><img src="asset/about/3.jpg" alt=""></div>
+                          <div class="item-about"><img src="asset/about/4.jpg" alt=""></div>
+                          <div class="item-about"><img src="asset/about/5.jpg" alt=""></div>
+                          <div class="item-about"><img src="asset/about/6.jpg" alt=""></div>
+                       </div>
       </div>
     </div>
    </div>
@@ -96,7 +99,7 @@ include("header.php");
 
 
             <div class="product-type" style="padding:1.5em">
-                <div class="col-lg-3 col-md-4 col-xs-6">
+              <!--   <div class="col-lg-3 col-md-4 col-xs-6">
                   <a href="#" class="d-block mb-4 h-100">
                     <figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure>
                     <p> งานสร้างเครื่องจักร </p>   
@@ -131,6 +134,118 @@ include("header.php");
                      <figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure>
                      <p> งานดัดแปลง </p>
                   </a>
+                </div> -->
+                 <p> งานสร้างเครื่องจักร </p>   
+                 <div class="owl-carousel owl-theme product">
+                          <div class="item-product">
+                            <figure>
+                              <img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt="">  
+                            </figure>
+                            <div class="product-description">
+                              <h6 class="iq-tw-6">Ria Somani</h6>
+                              <p>CEO, TheOne</p>
+                            </div>
+                          </div>
+                           <div class="item-product">
+                            <figure>
+                              <img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt="">  
+                            </figure>
+                            <div class="product-description">
+                              <h6 class="iq-tw-6">Ria Somani</h6>
+                              <p>CEO, TheOne</p>
+                            </div>
+                          </div>
+                           <div class="item-product">
+                            <figure>
+                              <img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt="">  
+                            </figure>
+                            <div class="product-description">
+                              <h6 class="iq-tw-6">Ria Somani</h6>
+                              <p>CEO, TheOne</p>
+                            </div>
+                          </div>
+                           <div class="item-product">
+                            <figure>
+                              <img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt="">  
+                            </figure>
+                            <div class="product-description">
+                              <h6 class="iq-tw-6">Ria Somani</h6>
+                              <p>CEO, TheOne</p>
+                            </div>
+                          </div>
+                           <div class="item-product">
+                            <figure>
+                              <img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt="">  
+                            </figure>
+                            <div class="product-description">
+                              <h6 class="iq-tw-6">Ria Somani</h6>
+                              <p>CEO, TheOne</p>
+                            </div>
+                          </div>
+                           <div class="item-product">
+                            <figure>
+                              <img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt="">  
+                            </figure>
+                            <div class="product-description">
+                              <h6 class="iq-tw-6">Ria Somani</h6>
+                              <p>CEO, TheOne</p>
+                            </div>
+                          </div>
+                        
+                </div>
+                   <p> งานผลิตชื้นส่วน </p>   
+                 <div class="owl-carousel owl-theme product">
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
+                </div>
+                   <p> งานเชื่อมโครงสร้าง </p>   
+                 <div class="owl-carousel owl-theme product">
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
+                </div>
+                   <p> งานสร้างเครื่องจักร </p>   
+                 <div class="owl-carousel owl-theme product">
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
+                </div>
+                   <p> งานออกแบบ </p>   
+                 <div class="owl-carousel owl-theme product">
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
+                </div>
+                   <p> งานซ่อมบำรุง </p>   
+                 <div class="owl-carousel owl-theme product">
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
+                </div>
+                    <p> งานดัดแปลง </p>   
+                 <div class="owl-carousel owl-theme product">
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
+                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
                 </div>
           </div>
         </div>
@@ -249,14 +364,18 @@ include("header.php");
                       </div>
 
                       <div class="form-group">
-                          <textarea class="form-control" type="textarea" id="messages" name="messages" placeholder="รายละเอียด" maxlength="140" rows="7"></textarea>                         
+                          <textarea class="form-control" type="textarea" id="messages" name="messages" placeholder="รายละเอียด" maxlength="500" rows="10"></textarea>                         
                       </div>
-                        
+                      <div align="center">
+                      <div class="g-recaptcha" data-sitekey="6LdX-m0UAAAAAJ_8P99WgXfSYuZKIv7G-wn8jyQv" ></div>
+                      </div>
+
+                        <br>
                     <center><button type="submit" name="submit" class="btn">ส่งข้อความ</button></center>
 
                     </form>
                       <span class="help-block"><p id="characterLeft" class="help-block ">***เมื่อเราได้รับเมลล์เราจะติดต่อกลับโดยทันที</p></span> 
-                      <div id="msgSubmit" class="h3 text-center"></div>
+                      <div id="msgerr"></div>
                 </div>
 
                 
@@ -313,15 +432,58 @@ include("header.php");
  
 </footer>
 <!-- Footer -->
-<script src="process_script.js"></script>
+
 
 <script type="text/javascript">
+
+
+// $("img").click(function(){
+// swal({
+//           title: 'กำลังส่งข้อความ...',
+         
+//         }) ;
+//          swal.showLoading() ;
+// });
+ 
+
+
   $("#contactForm").submit(function(event){
-    // cancels the form submission
-    event.preventDefault();
-    submitForm();
-});
+
+    event.preventDefault(); 
+    form = $(this);
+     $.ajax({
+        type: "POST",
+        url: "process_mail.php",
+        data: form.serialize(),
+        success : function(text){
+                  if(text === 'Success'){ 
+                       swal({
+                              type: 'success',
+                              title: 'ส่งข้อความสำเร็จ',
+                              text: 'ทางเราได้รับข้อความของท่านแล้ว จะรีบติดต่อกลับไปทันทีครับ!'
+                            }) ;
+                 }else{
+                      swal({
+                            type: 'error',
+                            title: 'ส่งข้อความไม่สำเร็จ',
+                            text: text
+                          });
+                 }
+  
+        }
+      });
+    });
+    $(document).ajaxStart(function(){
+        swal({
+          title: 'กำลังส่งข้อความ...',
+        }) ;
+         swal.showLoading() ;
+    });
+    $(document).ajaxComplete(function(){
+        $(".swal2").css("display", "none");
+    });
 </script>
+
 
       <!--<div id="BtnFilter">
               <button type="button" class="btn btn-secondary" onclick="filterSelection('All')">All</button>
@@ -447,6 +609,7 @@ include("header.php");
                       }
 
                 </script> -->
+
 
 
 </body>

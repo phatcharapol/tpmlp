@@ -58,10 +58,49 @@ $( "a.scrollanimate" ).click(function( event ) {
 
 
 	// // carousel
- 		$('.ma5slider').ma5slider();
+ 		
+ 	var owl_about = $('.owl-carousel.about');
+		owl_about.owlCarousel({
+		    loop:true,
+		    margin:10,
+		  	items:1,
+		  	smartSpeed:800,
+		  	autoplay:true,
+		  	autoHeight:true	
+    		
+		});
+
+		
+
+	var owl_product = $('.owl-carousel.product');
+		owl_product.owlCarousel({
+			loop:true,
+		    margin:10,
+		    items:3,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:2
+		        },
+		        1000:{
+		            items:3
+		        }
+		    }
+		});
+
+
+
+$(".spinner").delay(2000).fadeOut("slow");
+
+// $(".spinner").show();
+	// $(".spinner").delay(9000).hide(10).fadeOut();
+	// $("body").show().delay(5000).fadeIn();
+
+		
 
 
     
-	
 });
 
