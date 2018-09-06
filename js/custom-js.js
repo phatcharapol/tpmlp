@@ -92,7 +92,7 @@ $( "a.scrollanimate" ).click(function( event ) {
 
 
 
-$(".spinner").delay(2000).fadeOut("slow");
+$(".spinner").addClass('animated fadeOut delay-2s');
 
 // $(".spinner").show();
 	// $(".spinner").delay(9000).hide(10).fadeOut();
