@@ -91,14 +91,45 @@ $( "a.scrollanimate" ).click(function( event ) {
 		});
 
 
+// loading page
+		// $(".spinner").addClass('animated fadeOut delay-2s');
+		setTimeout(function() {
+		  $('.spinner').remove();
+		}, 2500);
+		// $( ".spinner" ).remove();
 
-$(".spinner").addClass('animated fadeOut delay-2s');
 
-// $(".spinner").show();
-	// $(".spinner").delay(9000).hide(10).fadeOut();
-	// $("body").show().delay(5000).fadeIn();
+  var $container = $('.portfolioContainer');
+    $container.isotope({
+        filter: '*',
+        // resizable:true,
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+  //        masonry:{
+  //           	 columnWidth: $container.width()/5
+		// }
 
-		
+    });
+ 
+    $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+          
+         });
+         return false;
+    }); 
 
 
     

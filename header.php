@@ -36,7 +36,8 @@
     <script src='js/sweetalert.min.js'></script>
   <!-- captcha api -->
      <script src='https://www.google.com/recaptcha/api.js'></script>
-
+  <!-- filter image-->
+   <script src='js/isotop-filter.min.js'></script>
   <!-- Customize -->
     <link rel="stylesheet" type="text/css" href="css/custom-style.css">
     <script src="js/custom-js.js"></script>

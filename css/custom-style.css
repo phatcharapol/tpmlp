@@ -170,6 +170,7 @@ font-size:1.5em;
 .product{
   background:#31708f;
   color:#fff;
+
 }
 .product p{
   font-size:1.5em;
@@ -187,11 +188,15 @@ font-size:1.5em;
  .product-description {
     padding: 5px;
     text-align: center;
-    background-color: #c4d4c1;
+    background-color: #0b1319;
     border-radius: 0px 0px 15px 15px;
     -moz-border-radius: 0px 0px 15px 15px;
     -webkit-border-radius: 0px 0px 15px 15px;
     border: 0px solid #000000;
+    cursor: pointer;
+  }
+   .product-description i{
+    font-size: 3em ;
   }
 
 
@@ -290,7 +295,7 @@ figure {
   overflow: hidden;
 }
 figure:hover+span {
-
+ border-radius: 15px 15px 0px 0px;
   opacity: 1;
 }
 
@@ -303,18 +308,25 @@ figure img {
   transition: 0.8s ease-in-out;
 }
 figure:hover img {
+   border-radius: 15px 15px 0px 0px;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-   transition: 0.5s
+   transition: 0.5s;
+   
 }
 
 
 
 .img-thumbnail{
   padding: 1px;
-
+    border-radius: 15px 15px 0px 0px;
    background-color:#00000000;
    border: 1px solid #00000000;
+   cursor: pointer;
+  }
+  img.arrow-down{
+    width: 5px;
+    height: 25px;
   }
 
 /*Form*/
@@ -523,6 +535,7 @@ footer.page-footer {
 /*
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }*/
+/*loading page*/
 .spinner {
   position: fixed;
   left: 0px;
@@ -530,10 +543,81 @@ footer.page-footer {
   width: 100%;
   height: 100%;
   z-index: 9999999;
-
   background: url(../asset/icon/loading.gif) center no-repeat #fff;
   background-color: #d4e8fd;
 }
 
 
 
+
+
+.portfolioFilter {
+  padding: 40px 0;
+}
+
+.portfolioFilter a {
+  margin-right: 6px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 4px 15px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color:#262f35; 
+}
+
+.portfolioFilter a.current {
+  background: #cc8649;
+  border: 1px solid #1e1e1e;
+  color: #f9f9f9;
+}
+
+.portfolioContainer img{
+     padding: 0 15px 15px 0;
+     width: 100%
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+@media (max-width: 767px){
+  .portfolioContainer .ist-col{
+      width: 100%;
+  }
+}
+@media (max-width: 992px){
+  .portfolioContainer4 .ist-col{
+      width: 50%;
+  }
+}
+
+@media (max-width: 1199px){
+  .portfolioContainer .ist-col{
+      width: 25%;
+  }
+}

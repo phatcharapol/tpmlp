@@ -10,8 +10,6 @@ include("header.php");
 
 
 <div class="spinner">
-<!--   <div class="double-bounce1"></div>
-  <div class="double-bounce2"></div> -->
 </div>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -94,160 +92,184 @@ include("header.php");
    <div id="product" class="container-fluid product">
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <div class="container">
-          <h2>ผลงานของเรา</h2>
-         <p> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
+                  <h2>ผลงานของเรา</h2>
+                 <p> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
+
+                    <div class="product-type" style="padding:1.5em">          
+                         <p> ผลงานที่ผ่านมา </p>   
+                         <div class="owl-carousel owl-theme product">
+                                  <div class="item-product">
+                                    <figure>
+                                      <img class="img-thumbnail" src="asset/product/1.jpg" alt="">  
+                                    </figure>
+                                    <div class="product-description">
+                                      <p>งานผลิตชื้นส่วน</p>
+                                      <i class="fas fa-angle-down"></i>
+                                    </div>
+                                  </div>
+                                   <div class="item-product">
+                                    <figure>
+                                      <img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt="">  
+                                    </figure>
+                                    <div class="product-description">
+                                      <p>งานเชื่อมโครงสร้าง</p>
+                                      <i class="fas fa-angle-down"></i>
+                                    </div>
+                                  </div>
+                                   <div class="item-product">
+                                    <figure>
+                                      <img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt="">  
+                                    </figure>
+                                    <div class="product-description">
+                                      <p>งานสร้างเครื่องจักร</p>
+                                      <i class="fas fa-angle-down"></i>
+                                    </div>
+                                  </div>
+                                   <div class="item-product">
+                                    <figure>
+                                      <img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt="">  
+                                    </figure>
+                                    <div class="product-description">
+                                      <p>งานออกแบบ</p>
+                                      <i class="fas fa-angle-down"></i>
+                                    </div>
+                                  </div>
+                                   <div class="item-product">
+                                    <figure>
+                                      <img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt="">  
+                                    </figure>
+                                    <div class="product-description">
+                                      <p>งานซ่อมบำรุง</p>
+                                      <i class="fas fa-angle-down"></i>
+                                    </div>
+                                  </div>
+                                   <div class="item-product">
+                                    <figure>
+                                      <img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt="">  
+                                    </figure>
+                                    <div class="product-description">
+                                      <p>งานดัดแปลง</p>
+                                      <i class="fas fa-angle-down"></i>
+                                    </div>
+                                  </div>
+                                
+                        </div>
+                  </div>
 
 
-            <div class="product-type" style="padding:1.5em">
-              <!--   <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                    <figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure>
-                    <p> งานสร้างเครื่องจักร </p>   
-                  </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                     <figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure>
-                     <p> งานผลิตชื้นส่วน </p>
-                  </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                    <figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure>
-                    <p> งานเชื่อมโครงสร้าง </p>
-                  </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                     <figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure>
-                     <p> งานออกแบบ </p> 
-                  </a>
-                </div>
-                 <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                    <figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure>
-                    <p> งานซ่อมบำรุง </p> 
-                  </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-xs-6">
-                  <a href="#" class="d-block mb-4 h-100">
-                     <figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure>
-                     <p> งานดัดแปลง </p>
-                  </a>
-                </div> -->
-                 <p> งานสร้างเครื่องจักร </p>   
-                 <div class="owl-carousel owl-theme product">
-                          <div class="item-product">
-                            <figure>
-                              <img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt="">  
-                            </figure>
-                            <div class="product-description">
-                              <h6 class="iq-tw-6">Ria Somani</h6>
-                              <p>CEO, TheOne</p>
-                            </div>
+                  <!-- gallery product -->
+                 
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                          <div class="portfolioFilter clearfix">
+                            <a href="#" data-filter="*" class="current">ผลงานทั้งหมด</a>
+                            <a href="#" data-filter=".webTemplates">งานสร้างเครื่องจักร</a>
+                            <a href="#" data-filter=".logos">งานออกแบบ</a>
+                            <a href="#" data-filter=".drawings">งานซ่อมบำรุง</a>
+                            <a href="#" data-filter=".ui">งานดัดแปลง</a>
                           </div>
-                           <div class="item-product">
-                            <figure>
-                              <img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt="">  
-                            </figure>
-                            <div class="product-description">
-                              <h6 class="iq-tw-6">Ria Somani</h6>
-                              <p>CEO, TheOne</p>
-                            </div>
-                          </div>
-                           <div class="item-product">
-                            <figure>
-                              <img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt="">  
-                            </figure>
-                            <div class="product-description">
-                              <h6 class="iq-tw-6">Ria Somani</h6>
-                              <p>CEO, TheOne</p>
-                            </div>
-                          </div>
-                           <div class="item-product">
-                            <figure>
-                              <img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt="">  
-                            </figure>
-                            <div class="product-description">
-                              <h6 class="iq-tw-6">Ria Somani</h6>
-                              <p>CEO, TheOne</p>
-                            </div>
-                          </div>
-                           <div class="item-product">
-                            <figure>
-                              <img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt="">  
-                            </figure>
-                            <div class="product-description">
-                              <h6 class="iq-tw-6">Ria Somani</h6>
-                              <p>CEO, TheOne</p>
-                            </div>
-                          </div>
-                           <div class="item-product">
-                            <figure>
-                              <img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt="">  
-                            </figure>
-                            <div class="product-description">
-                              <h6 class="iq-tw-6">Ria Somani</h6>
-                              <p>CEO, TheOne</p>
-                            </div>
-                          </div>
-                        
+                     
+
+                      <div class="portfolioContainer">
+
+                              <div class="ist-col webTemplates objects">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                              </div>
+
+                              <div class="ist-col drawings places">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col webTemplates food">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image">
+                              </div>
+
+                              <div class="ist-col logos drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
+                              </div>
+
+                              <div class="ist-col ui">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image">
+                              </div>
+
+                              <div class="ist-col drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image">
+                              </div>
+                              <div class="ist-col logos">
+                                <img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image">
+                              </div>
+                              <div class="ist-col ui">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image">
+                              </div>
+                              
+                              <div class="ist-col logos">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
+                              </div>
+
+                                  <div class="ist-col webTemplates objects">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                              </div>
+
+                              <div class="ist-col drawings places">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col webTemplates food">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image">
+                              </div>
+
+                              <div class="ist-col logos drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
+                              </div>
+
+                              <div class="ist-col ui">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image">
+                              </div>
+
+                              <div class="ist-col drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image">
+                              </div>
+
+                              <div class="ist-col drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image">
+                              </div>
+                              <div class="ist-col logos">
+                                <img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image">
+                              </div>
+                              <div class="ist-col ui">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image">
+                              </div>
+                              
+                              <div class="ist-col logos">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
+                              </div>
+
+                         </div>
+                      </div>
                 </div>
-                   <p> งานผลิตชื้นส่วน </p>   
-                 <div class="owl-carousel owl-theme product">
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
-                </div>
-                   <p> งานเชื่อมโครงสร้าง </p>   
-                 <div class="owl-carousel owl-theme product">
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
-                </div>
-                   <p> งานสร้างเครื่องจักร </p>   
-                 <div class="owl-carousel owl-theme product">
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
-                </div>
-                   <p> งานออกแบบ </p>   
-                 <div class="owl-carousel owl-theme product">
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
-                </div>
-                   <p> งานซ่อมบำรุง </p>   
-                 <div class="owl-carousel owl-theme product">
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
-                </div>
-                    <p> งานดัดแปลง </p>   
-                 <div class="owl-carousel owl-theme product">
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/1.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt=""></figure></div>
-                          <div class="item-product"><figure><img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt=""></figure></div>
-                </div>
-          </div>
+               
+
+
         </div>
 
 
