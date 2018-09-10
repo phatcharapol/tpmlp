@@ -53,7 +53,7 @@ include("header.php");
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul id="ul-nav" class="nav navbar-nav navbar-right">
                 <li><a class="scrollanimate" href="#about"><span>เกี่ยวกับเรา</span></a></li>
-                <li><a class="scrollanimate" href="#services"><span>บริการของเรา</span></a></li>
+                <li><a class="scrollanimate" href="#services"><span>บริการ</span></a></li>
                 <li><a class="scrollanimate" href="#product"><span>ผลงานของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#customer"><span>ลูกค้าของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#contact-us"><span>ติดต่อเรา</span></a></li>
@@ -230,19 +230,25 @@ include("header.php");
 
                     <div class="row text-center text-lg-left">
 
-                            <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="col-lg-3 col-md-6 col-xs-12">
                               
                                 <img class="img-fluid img-thumbnail" src="asset/design.jpg" alt="">
                                 <h3> งานออกแบบ </h3>
                                 <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="col-lg-3 col-md-6 col-xs-12">
                           
                                 <img class="img-fluid img-thumbnail" src="asset/consult.jpg" alt="">
                                 <h3> ให้คำปรึกษา </h3>
                                 <p>บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>                         
                             </div>
-                            <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="col-lg-3 col-md-6 col-xs-12">
+                       
+                               <img class="img-fluid img-thumbnail" src="asset/maintain.jpg" alt="">
+                                <h3> ซ่อมบำรุง </h3>
+                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>                        
+                            </div>   
+                              <div class="col-lg-3 col-md-6 col-xs-12">
                        
                                <img class="img-fluid img-thumbnail" src="asset/maintain.jpg" alt="">
                                 <h3> ซ่อมบำรุง </h3>

@@ -291,6 +291,12 @@ font-size:1.5em;
    .affix li a span{
    color:white;
   }
+  @media only screen and (max-width: 991px){
+ .navbar {
+    padding: 10px 0;
+    font-size: 13px;
+  }
+}
  @media only screen and (max-width: 767px){
  .navbar {
     background: #23292c;
