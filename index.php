@@ -53,6 +53,7 @@ include("header.php");
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul id="ul-nav" class="nav navbar-nav navbar-right">
                 <li><a class="scrollanimate" href="#about"><span>เกี่ยวกับเรา</span></a></li>
+                <li><a class="scrollanimate" href="#services"><span>บริการของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#product"><span>ผลงานของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#customer"><span>ลูกค้าของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#contact-us"><span>ติดต่อเรา</span></a></li>
@@ -68,9 +69,7 @@ include("header.php");
     <div class="container" style="padding:6em 0">
       <div class="col-md-7" style="text-align: left">
       <h2>เกี่ยวกับเรา</h2>
-      <p>บริษัท ชาญชัย เวิร์ค เอ็นจิเนียริ่ง จำกัด ดำเนินธุรกิจเกี่ยวกับการออกแบบไฟฟ้าและสื่อสาร, FIRE ALARM, ระบบปรับอากาศ, CCTV, MATV, SOUND และจัดจำหน่ายอุปกรณ์ไฟฟ้าทุกชนิด ทั้งโรงงาน อาคาร บ้าน บริษัทฯ มีนโยบายที่จะขยายตลาดไปสู่กลุ่มลูกค้าทุกแขนง โดยรับประกันคุณภาพของผลงาน และราคาย่อมเยา ดำเนินงานโดยทีมวิศวกรและช่างผู้ชำนาญการมากกว่า 10 ปี
-อีกทั้งบริษัทฯ ยังรับผลิตตู้ MDB, PANEL, โครงตู้น้ำมัน, โครงตู้เติมเงินออนไลน์ และตู้อุปกรณ์ไฟฟ้าต่าง ๆ เป็นต้น รวมถึงรับผลิตชิ้นส่วนเครื่องจักรอุตสาหกรรมตามแบบ
-บริษัทฯ ดำเนินการทำงานตามหลักของสภาวิศวกรรมแห่งประเทศไทย (วศท.) เพื่อให้ได้งานที่มีคุณภาพมาตรฐานระดับสากล เราเติบโตไปพร้อมกับการขยายธุรกิจของลูกค้า เราได้รับความไว้วางใจจากลูกค้าเสมอมา อันแสดงความถึงความเชื่อมั่นในความรับผิดชอบต่องานที่ได้รับมอบหมาย เราพึงตระหนักถึงความไว้วางใจจากลูกค้า เราจึงทำงานด้วยความซื่อสัตย์และซื่อตรงเพื่อรักษาคุณภาพของการบริการ โดยเน้นการบริการลูกค้าด้วยความจริงใจ</p>
+      <p>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่ ดำเนินธุรกิจรับจ้างผลิต,ออกแบบชิ้นส่วนเครื่องจักรกล อุตสาหกรรม ทุกประเภท,งานดัดแปลงเครื่องจักร,งานสร้างเครื่องจักรกลตามแบบ ตามวัตถุประสงค์ของผู้ใช้งานการปรึกษาการเพิ่มผลผลิตในกระบวนการผลิต โดยทีมผู้บริหารและบุคลากรที่มีประสบการณ์ในงานมากกว่า 15 ปี โดยมุ่งเน้นผลิตงานให้ลูกค้าเป็นไปตามมาตรฐานสากล เหมาะกับการใช้งาน คัดสรรวัสดุ และกระบวนการผลิตที่มีประสิทธิภาพสูงสุด โดยคำนึงถึงต้นทุนและประโยชน์สูงสุดที่ลูกค้าได้รับ ตลอดระยะเวลาที่ผ่านมาเราเห็นปัญหาของลูกค้าในหลากหลายมิติ เราจึงนำปัญหาหลักๆของลูกค้า มาเป็นนโยบายหลักในการทำงาน เพื่อตอบโจทย์ลูกค้าให้มากที่สุด จึงได้รับความไว้วางใจจากลูกค้า ในหลายกลุ่มงาน ตลอดระยะเวลาที่ผ่านมา  เราจะมุ่งพัฒนา ให้ดียิ่งๆขึ้นต่อไป </p>
       </div>
       <div class="col-md-5 carousel-about">
           <!-- carousel -->
@@ -83,8 +82,178 @@ include("header.php");
                           <div class="item-about"><img src="asset/about/6.jpg" alt=""></div>
                        </div>
       </div>
+         <div class="product-type" style="padding:1.5em">          
+                               <h3> ทีมงานของเรา </h3>  
+                               <div class="owl-carousel owl-theme team">
+                                        <div class="item-product">
+                                         
+                                            <img class="img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h5>ผู้บริหาร</h5>
+                                            
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร</h6>
+                                                                     
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร</h6>
+                                                                        
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร</h6>
+                                                                            
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร</h6>
+                                                                      
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร</h6>
+                                                                           
+                                          </div>
+                                        </div>
+                                      
+                              </div>
+              </div>
     </div>
    </div>
+
+
+
+<!-- Section Team -->
+  <!--  <div id="team" class="container-fluid-nav team">
+      <div class="container" style="padding:6em 0">
+          <div class="product-type" style="padding:1.5em">          
+                               <h5> ทีมงานของเรา </h5>  
+                               <div class="owl-carousel owl-theme product">
+                                        <div class="item-product">
+                                         
+                                            <img class="img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="product-description">
+                                            <h6>Charan T.</h6>
+                                             <p>CEO1</p>
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="product-description">
+                                            <h6>Charan T.</h6>
+                                            <p>CEO2</p>                              
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="product-description">
+                                            <h6>Charan T.</h6>
+                                            <p>CEO3</p>                                     
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="product-description">
+                                            <h6>Charan T.</h6>
+                                            <p>CEO4</p>                                   
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="product-description">
+                                            <h6>Charan T.</h6>
+                                            <p>CEO5</p>                             
+                                          </div>
+                                        </div>
+                                         <div class="item-product">
+                                         
+                                            <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
+                                   
+                                          <div class="product-description">
+                                            <h6>Charan T.</h6>
+                                            <p>CEO6</p>                                   
+                                          </div>
+                                        </div>
+                                      
+                              </div>
+              </div>
+        </div>
+  </div> -->
+
+
+
+
+   <!-- Section Services -->
+     <div id="services" class="container-fluid services">
+      <div class="container">
+
+             <h2>บริการของเรา</h2>
+
+                    <div class="row text-center text-lg-left">
+
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                              
+                                <img class="img-fluid img-thumbnail" src="asset/design.jpg" alt="">
+                                <h3> งานออกแบบ </h3>
+                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                          
+                                <img class="img-fluid img-thumbnail" src="asset/consult.jpg" alt="">
+                                <h3> ให้คำปรึกษา </h3>
+                                <p>บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>                         
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                       
+                               <img class="img-fluid img-thumbnail" src="asset/maintain.jpg" alt="">
+                                <h3> ซ่อมบำรุง </h3>
+                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>                        
+                            </div>   
+                   
+                     </div>
+
+        </div>
+
+    </div>
 
 
 
@@ -95,66 +264,6 @@ include("header.php");
                   <h2>ผลงานของเรา</h2>
                  <p> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
 
-                    <div class="product-type" style="padding:1.5em">          
-                         <p> ผลงานที่ผ่านมา </p>   
-                         <div class="owl-carousel owl-theme product">
-                                  <div class="item-product">
-                                    <figure>
-                                      <img class="img-thumbnail" src="asset/product/1.jpg" alt="">  
-                                    </figure>
-                                    <div class="product-description">
-                                      <p>งานผลิตชื้นส่วน</p>
-                                      <i class="fas fa-angle-down"></i>
-                                    </div>
-                                  </div>
-                                   <div class="item-product">
-                                    <figure>
-                                      <img class="img-fluid img-thumbnail" src="asset/product/2.jpg" alt="">  
-                                    </figure>
-                                    <div class="product-description">
-                                      <p>งานเชื่อมโครงสร้าง</p>
-                                      <i class="fas fa-angle-down"></i>
-                                    </div>
-                                  </div>
-                                   <div class="item-product">
-                                    <figure>
-                                      <img class="img-fluid img-thumbnail" src="asset/product/3.jpg" alt="">  
-                                    </figure>
-                                    <div class="product-description">
-                                      <p>งานสร้างเครื่องจักร</p>
-                                      <i class="fas fa-angle-down"></i>
-                                    </div>
-                                  </div>
-                                   <div class="item-product">
-                                    <figure>
-                                      <img class="img-fluid img-thumbnail" src="asset/product/4.jpg" alt="">  
-                                    </figure>
-                                    <div class="product-description">
-                                      <p>งานออกแบบ</p>
-                                      <i class="fas fa-angle-down"></i>
-                                    </div>
-                                  </div>
-                                   <div class="item-product">
-                                    <figure>
-                                      <img class="img-fluid img-thumbnail" src="asset/product/5.jpg" alt="">  
-                                    </figure>
-                                    <div class="product-description">
-                                      <p>งานซ่อมบำรุง</p>
-                                      <i class="fas fa-angle-down"></i>
-                                    </div>
-                                  </div>
-                                   <div class="item-product">
-                                    <figure>
-                                      <img class="img-fluid img-thumbnail" src="asset/product/6.jpg" alt="">  
-                                    </figure>
-                                    <div class="product-description">
-                                      <p>งานดัดแปลง</p>
-                                      <i class="fas fa-angle-down"></i>
-                                    </div>
-                                  </div>
-                                
-                        </div>
-                  </div>
 
 
                   <!-- gallery product -->
@@ -172,97 +281,71 @@ include("header.php");
 
                       <div class="portfolioContainer">
 
-                              <div class="ist-col webTemplates objects">
+                              <div class="ist-col webTemplates">
+                                <a href="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" data-fancybox="webTemplates">
                                 <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                                </a>
                               </div>
 
-                              <div class="ist-col drawings places">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
+                              <div class="ist-col drawings">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" data-fancybox="drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image"></a>
                               </div>
 
-                              <div class="ist-col webTemplates food">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image">
+                              <div class="ist-col webTemplates">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" data-fancybox="webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image"></a>
                               </div>
 
                               <div class="ist-col logos drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" data-fancybox="drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image"></a>
                               </div>
 
                               <div class="ist-col webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" data-fancybox="webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image"></a>
                               </div>
 
                               <div class="ist-col ui">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" data-fancybox="ui">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image"></a>
                               </div>
 
                               <div class="ist-col drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" data-fancybox="images">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="drawings"></a>
                               </div>
 
                               <div class="ist-col webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" data-fancybox="webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image"></a>
                               </div>
 
                               <div class="ist-col drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" data-fancybox="drawings">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image"></a>
                               </div>
                               <div class="ist-col logos">
-                                <img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" data-fancybox="logos">
+                                <img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image"></a>
                               </div>
                               <div class="ist-col ui">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" data-fancybox="ui">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image"></a>
                               </div>
                               
                               <div class="ist-col logos">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" data-fancybox="logos">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image"></a>
                               </div>
 
                                   <div class="ist-col webTemplates objects">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" data-fancybox="webTemplates">
+                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image"></a>
                               </div>
 
-                              <div class="ist-col drawings places">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
-                              </div>
 
-                              <div class="ist-col webTemplates food">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image">
-                              </div>
-
-                              <div class="ist-col logos drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
-                              </div>
-
-                              <div class="ist-col webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
-                              </div>
-
-                              <div class="ist-col ui">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image">
-                              </div>
-
-                              <div class="ist-col drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="image">
-                              </div>
-
-                              <div class="ist-col webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image">
-                              </div>
-
-                              <div class="ist-col drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image">
-                              </div>
-                              <div class="ist-col logos">
-                                <img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image">
-                              </div>
-                              <div class="ist-col ui">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image">
-                              </div>
-                              
-                              <div class="ist-col logos">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
-                              </div>
 
                          </div>
                       </div>
@@ -294,69 +377,72 @@ include("header.php");
 
       
    </div>
+
+
+
+
 <!-- Section Customer -->
- <div id="customer" class="container-fluid customer">
-  <div class="container">
+     <div id="customer" class="container-fluid customer">
+      <div class="container">
 
-      <h2>ลูกค้าของเรา</h2>
+             <h2>ลูกค้าของเรา</h2>
 
-      <div class="row text-center text-lg-left">
+                    <div class="row text-center text-lg-left">
 
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
+                            <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                               <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                               <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                             <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                             <div class="col-lg-3 col-md-4 col-xs-6">
+                              <a href="#" class="d-block mb-4 h-100">
+                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
+                                
+                              </a>
+                            </div>
+                   
+                     </div>
+
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-           <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-           <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
-        </div>
-         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
-        </div>
-         <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-            
-          </a>
-        </div>
-       
-   
-      </div>
 
     </div>
-
-</div>
 
 
 <!-- Section Contact US -->

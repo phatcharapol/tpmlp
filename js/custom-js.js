@@ -72,7 +72,7 @@ $( "a.scrollanimate" ).click(function( event ) {
 
 		
 
-	var owl_product = $('.owl-carousel.product');
+	var owl_product = $('.owl-carousel.team');
 		owl_product.owlCarousel({
 			loop:true,
 		    margin:10,
@@ -99,6 +99,8 @@ $( "a.scrollanimate" ).click(function( event ) {
 		// $( ".spinner" ).remove();
 
 
+
+// fillter image
   var $container = $('.portfolioContainer');
     $container.isotope({
         filter: '*',
