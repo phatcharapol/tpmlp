@@ -106,8 +106,8 @@ h2{
   left:0;
   width:100vw;
   z-index:1;
-  background:#000000b3;
-  opacity:0.85;
+  background:#000000b5;
+
 }
 
 .header-content{
@@ -134,21 +134,26 @@ header i.fa-arrow-down{
 
 
 .btn{
-  background: #1E94CC;
+  background: #1e94cc;
   color:#fff;
   font-size:1.5rem;
   padding: 1rem 2rem;
   text-decoration: none;
+  border-color:#1e94cc;
   border-radius: 10px;
+  border-width: 3px;
 }
-.btn:hover{
-  background: #23292C;
+.btn.focus, .btn:focus, .btn:hover{
+  background: #2a5f77;
   color:#fff;
   font-size:1.5rem;
   padding: 1rem 2rem;
   text-decoration: none;
+  border-color:#2a5f77;
   border-radius: 10px;
+  transition: all 0.4s ease 0s;
 }
+
 
 .container-fluid{
   padding:60px 0;
@@ -179,25 +184,9 @@ font-size:1.5em;
     border: 0px solid #000000;
   }
 
-.product{
-  background:#31708f;
-  color:#fff;
 
-}
-.product p{
-  font-size:1.5em;
-}
-/*.product .product-type h6{
-  font-size:1.6em;
-}
- @media only screen and (max-width: 365px){
- .product .product-type h6{
-  font-size:1.3em;
-}
-
-}*/
 .services{
-   background:grey;
+   background:#F6F6F6;
    color:black;
 }
 .services p{
@@ -212,22 +201,40 @@ font-size:1.5em;
   }
 }
 
+.product{
+  background:#DFE6EC;
+  color:black;
 
+}
+.product p{
+  font-size:1.5em;
+}
+/*.product .product-type h6{
+  font-size:1.6em;
+}
+ @media only screen and (max-width: 365px){
+ .product .product-type h6{
+  font-size:1.3em;
+}
 
-
+}*/
 
 .customer{
-
+   background:#F6F6F6;
+   color:black;
 }
 .customer span img{
   width:80px;
   height:50px;
 }
+.customer-col img{
+  padding: 1.5em 1.5em ;
+}
 
 /*section ContactUS*/
 .contact-us{
-  background:#31708f;
-  color:#fff;
+  background:#d9e4f1;
+  color:black;
 }
 .contact-channel{
   font-size: 20px;
@@ -248,16 +255,16 @@ font-size:1.5em;
       background-color:#22547000;
       z-index: 9999;
       border: 0;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.4285714px !important;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       border-radius: 0;
       transition-duration: 0.5s;
       padding: 10px;
   }
   .navbar .navbar-brand {
-   background: url(../asset/logo/logo.png) center / contain no-repeat;
-  width: 200px;
+    background: url(../asset/logo/logo.png) center / contain no-repeat;
+    width: 200px;
   }
    .navbar-nav li a span{
        color: #FFFFFF ;       
@@ -266,8 +273,6 @@ font-size:1.5em;
       color: #1E94CC;
       -webkit-transition: all 0.2s; /* For Safari 3.1 to 6.0 */
       transition: all 0.2s;
-      font-size: 17.5px;
-
   }
   li.active{
      color: #1E94CC;
@@ -292,11 +297,17 @@ font-size:1.5em;
    color:white;
   }
   @media only screen and (max-width: 991px){
- .navbar {
-    padding: 10px 0;
-    font-size: 13px;
+   .navbar {
+      padding: 10px 0px;
+      font-size: 15px;   
+      line-height: 1.4285714px !important;
+    }
+    .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 8px;
+    }
   }
-}
  @media only screen and (max-width: 767px){
  .navbar {
     background: #23292c;
@@ -337,7 +348,10 @@ figure:hover img {
    
 }
 
-
+.img-thumbnail{
+    background-color: #fff0;
+    border: none;
+}
 
 .team .img-thumbnail{
   padding: 1px;
@@ -357,7 +371,7 @@ figure:hover img {
 
 /*Form*/
 .contact-form .help-block{
-  color:yellow;
+  color:#1c8e16;
   font-weight: 3em;
 }
 @media screen and (max-width: : 320px){ #rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;} }
@@ -368,7 +382,7 @@ figure:hover img {
 /*Map*/
 
  #map{
-        height: 340px;  
+        height: 410px;  
         width: 100%;  
 }
 .location{
@@ -463,7 +477,7 @@ footer.page-footer {
   height: 100%;
   z-index: 9999999;
   background: url(../asset/icon/loading.gif) center no-repeat #fff;
-  background-color: #d4e8fd;
+  background-color: white;
 }
 
 

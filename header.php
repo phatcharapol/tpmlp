@@ -42,6 +42,7 @@
    <link href="css/fancybox.min.css" rel="stylesheet" type="text/css">
     <script src='js/fancybox.min.js'></script>
 
+
   <!-- Customize -->
     <link rel="stylesheet" type="text/css" href="css/custom-style.css">
     <script src="js/custom-js.js"></script>

@@ -1,6 +1,7 @@
 
 $( document ).ready(function() {
 
+console.log($('section')) ;
 
 // Dynamic data-offset-top nav
 	var nav=$('#nav');
@@ -17,9 +18,20 @@ $( "a.scrollanimate" ).click(function( event ) {
 
         // animate section
         var section=($(this).attr("href")) ;
-        $(section+' div.container').addClass(' animated bounceInLeft delay-05s') ; ;
+        $(section+' div.container').addClass(' animated fadeIn delay-05s') ; ;
         console.log($(section+' container')) ;
     });
+
+// $(window).scroll(function() { 
+
+//       if ($(window).scrollTop() >  $("section:nth-of-type(odd)").offset().top) {
+//              // run your effect here
+//              $('section').addClass(' animated bounceInLeft delay-05s') ;
+//       }else{
+//       		$('section').addClass(' animated bounceInRight delay-05s') ;
+//       }
+
+// });
 
 
 	// smooth scroll
@@ -76,34 +88,34 @@ $( "a.scrollanimate" ).click(function( event ) {
 		owl_product.owlCarousel({
 			loop:true,
 		    margin:10,
-		    items:3,
+		    items:4,
 		    responsive:{
 		        0:{
-		            items:1
-		        },
-		        600:{
 		            items:2
 		        },
-		        1000:{
+		        600:{
 		            items:3
+		        },
+		        1000:{
+		            items:4
 		        }
 		    }
 		});
 
 
 // loading page
-		// $(".spinner").addClass('animated fadeOut delay-2s');
+		// $(".spinner").addClass('animated fadeOut delay-2s');	
+		// $( ".spinner" ).remove();
 		setTimeout(function() {
 		  $('.spinner').remove();
 		}, 2500);
-		// $( ".spinner" ).remove();
 
 
 
 // fillter image
   var $container = $('.portfolioContainer');
     $container.isotope({
-        filter: '*',
+        filter: '.webTemplates',
         // resizable:true,
         animationOptions: {
             duration: 750,

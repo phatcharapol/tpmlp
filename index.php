@@ -53,7 +53,7 @@ include("header.php");
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul id="ul-nav" class="nav navbar-nav navbar-right">
                 <li><a class="scrollanimate" href="#about"><span>เกี่ยวกับเรา</span></a></li>
-                <li><a class="scrollanimate" href="#services"><span>บริการ</span></a></li>
+                <li><a class="scrollanimate" href="#services"><span>บริการของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#product"><span>ผลงานของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#customer"><span>ลูกค้าของเรา</span></a></li>
                 <li><a class="scrollanimate" href="#contact-us"><span>ติดต่อเรา</span></a></li>
@@ -64,7 +64,7 @@ include("header.php");
 
 
 <!-- Section About -->
-   <div id="about" class="container-fluid-nav about">
+   <section id="about" class="container-fluid-nav about">
  
     <div class="container" style="padding:6em 0">
       <div class="col-md-7" style="text-align: left">
@@ -82,10 +82,10 @@ include("header.php");
                           <div class="item-about"><img src="asset/about/6.jpg" alt=""></div>
                        </div>
       </div>
-         <div class="product-type" style="padding:1.5em">          
+         <div class="row-team" style="padding:1.5em">          
                                <h3> ทีมงานของเรา </h3>  
                                <div class="owl-carousel owl-theme team">
-                                        <div class="item-product">
+                                        <div class="item-team">
                                          
                                             <img class="img-thumbnail" src="asset/profile.png" alt="">  
                                    
@@ -95,7 +95,7 @@ include("header.php");
                                             
                                           </div>
                                         </div>
-                                         <div class="item-product">
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
@@ -105,7 +105,7 @@ include("header.php");
                                                                      
                                           </div>
                                         </div>
-                                         <div class="item-product">
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
@@ -115,7 +115,7 @@ include("header.php");
                                                                         
                                           </div>
                                         </div>
-                                         <div class="item-product">
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
@@ -125,7 +125,7 @@ include("header.php");
                                                                             
                                           </div>
                                         </div>
-                                         <div class="item-product">
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
@@ -135,7 +135,7 @@ include("header.php");
                                                                       
                                           </div>
                                         </div>
-                                         <div class="item-product">
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
@@ -149,7 +149,7 @@ include("header.php");
                               </div>
               </div>
     </div>
-   </div>
+   </section>
 
 
 
@@ -223,7 +223,7 @@ include("header.php");
 
 
    <!-- Section Services -->
-     <div id="services" class="container-fluid services">
+     <section id="services" class="container-fluid services">
       <div class="container">
 
              <h2>บริการของเรา</h2>
@@ -259,12 +259,12 @@ include("header.php");
 
         </div>
 
-    </div>
+    </section>
 
 
 
 <!-- Section Product -->
-   <div id="product" class="container-fluid product">
+   <section id="product" class="container-fluid product">
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <div class="container">
                   <h2>ผลงานของเรา</h2>
@@ -277,8 +277,8 @@ include("header.php");
                     <div class="row">
                       <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                           <div class="portfolioFilter clearfix">
-                            <a href="#" data-filter="*" class="current">ผลงานทั้งหมด</a>
-                            <a href="#" data-filter=".webTemplates">งานสร้างเครื่องจักร</a>
+                           <!--  <a href="#" data-filter="*" class="current">ผลงานทั้งหมด</a> -->
+                            <a href="#" data-filter=".webTemplates" class="current">งานสร้างเครื่องจักร</a>
                             <a href="#" data-filter=".logos">งานออกแบบ</a>
                             <a href="#" data-filter=".drawings">งานซ่อมบำรุง</a>
                             <a href="#" data-filter=".ui">งานดัดแปลง</a>
@@ -289,69 +289,75 @@ include("header.php");
 
                               <div class="ist-col webTemplates">
                                 <a href="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" data-fancybox="webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image"></figure>
                                 </a>
                               </div>
 
                               <div class="ist-col drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" data-fancybox="drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image"></figure>
+                              </a>
                               </div>
 
                               <div class="ist-col webTemplates">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" data-fancybox="webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image"></figure>
+                                </a>
                               </div>
 
                               <div class="ist-col logos drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" data-fancybox="drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image"></figure>
+                                </a>
                               </div>
 
                               <div class="ist-col webTemplates">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" data-fancybox="webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image"></figure>
+                                </a>
                               </div>
 
                               <div class="ist-col ui">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" data-fancybox="ui">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image"></figure>
+                                </a>
                               </div>
 
                               <div class="ist-col drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" data-fancybox="images">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="drawings"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="drawings">
+                                </a>
                               </div>
 
                               <div class="ist-col webTemplates">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" data-fancybox="webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image"></figure>
+                                </a>
                               </div>
 
                               <div class="ist-col drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" data-fancybox="drawings">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image"></figure>
+                              </a>
                               </div>
                               <div class="ist-col logos">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" data-fancybox="logos">
-                                <img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image"></a>
+                                <figure><img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image"></figure>
+                                </a>
                               </div>
                               <div class="ist-col ui">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" data-fancybox="ui">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image"></figure>
+                                </a>
                               </div>
                               
                               <div class="ist-col logos">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" data-fancybox="logos">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image"></a>
+                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image"></figure>
+                                </a>
                               </div>
 
-                                  <div class="ist-col webTemplates objects">
-                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" data-fancybox="webTemplates">
-                                <img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image"></a>
-                              </div>
-
-
+                              
 
                          </div>
                       </div>
@@ -359,100 +365,56 @@ include("header.php");
                
 
 
-        </div>
+        </div>>
 
-
-        <!-- The Modal -->
- <!--        <div id="myModal" class="modal">
-            <i class="fas fa-times"></i>
-
-                  <div class="col-md-2 col-sm-6">
-                     <i class="fas fa-chevron-left"></i>
-                  </div>
-
-                  <div class="col-md-8 col-sm-12">
-                      <img class="modal-content" id="img01">
-                      <div id="caption"></div>
-                  </div>
-
-                  <div class="col-md-2 col-sm-6">
-                       <i class="fas fa-chevron-right"></i>
-                  </div>
-
-        </div> -->
 
       
-   </div>
+   </section>
 
 
 
 
 <!-- Section Customer -->
-     <div id="customer" class="container-fluid customer">
+     <section id="customer" class="container-fluid customer">
       <div class="container">
 
              <h2>ลูกค้าของเรา</h2>
 
-                    <div class="row text-center text-lg-left">
+                    <div class="customer-col">
 
-                            <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">                                         
                             </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
+
+                            <div class="col-lg-4 col-md-6 col-xs-12">                            
+                                <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">                          
                             </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                               <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
+
+                            <div class="col-lg-4 col-md-6 col-xs-12">                            
+                               <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">            
                             </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
+
+                            <div class="col-lg-4 col-md-6 col-xs-12">                        
+                                <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">               
                             </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                               <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
+
+                            <div class="col-lg-4 col-md-6 col-xs-12">
+                                <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">
                             </div>
-                            <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
-                            </div>
-                             <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
-                            </div>
-                             <div class="col-lg-3 col-md-4 col-xs-6">
-                              <a href="#" class="d-block mb-4 h-100">
-                                <figure><img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt=""></figure>
-                                
-                              </a>
-                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-xs-12">                        
+                                <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">               
+                            </div>             
                    
                      </div>
 
         </div>
 
-    </div>
+    </section>
 
 
 <!-- Section Contact US -->
-   <div id="contact-us" class="container-fluid contact-us">
+   <section id="contact-us" class="container-fluid contact-us">
         <div class="container">
             <h2>ติดต่อเรา</h2>
             <div class="col-md-6" >
@@ -512,14 +474,14 @@ include("header.php");
                <p><i class="fas fa-mobile-alt"></i> 086 889 0226,083 014 6160</p>
                <p><i class="fas fa-fax"></i> 02-8888 8888</p>
                <p><i class="fas fa-envelope"></i> tpmlp.work@gmail.com</p>   
-               <p><i class="fab fa-facebook-square"></i><a id="link" href="https://www.facebook.com/Thongpratheepmahinenery/"> facebook.com/ThongpratheepMahinenery </a></p>
-               <p><i class="fab fa-line"></i><a id="link" href="http://line.me/ti/p/~nuttsna"> @tpmlp</a></p>
+             <!--   <p><i class="fab fa-facebook-square"></i><a id="link" href="https://www.facebook.com/Thongpratheepmahinenery/"> facebook.com/ThongpratheepMahinenery </a></p>
+               <p><i class="fab fa-line"></i><a id="link" href="http://line.me/ti/p/~nuttsna"> @tpmlp</a></p> -->
     
             </div>
                
             </div>
         </div>
-   </div>
+   </section>
 
 
    <!-- Footer -->
