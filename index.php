@@ -29,7 +29,7 @@ include("header.php");
       <div class="container">
         <h1>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่</h1>
         <br><br>
-        <p>รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง </p> 
+        <p class="content">รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง </p> 
           <a href="#about" class="scrollanimate"><button type="button" class="btn">เกี่ยวกับเรา</button></a>
       </div>
     </div>
@@ -66,7 +66,7 @@ include("header.php");
 <!-- Section About -->
    <section id="about" class="container-fluid-nav about">
  
-    <div class="container" style="padding:6em 0">
+    <div class="container" style="padding:6em 0 20px">
       <div class="col-md-7" style="text-align: left">
       <h2>เกี่ยวกับเรา</h2>
       <p>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่ ดำเนินธุรกิจรับจ้างผลิต,ออกแบบชิ้นส่วนเครื่องจักรกล อุตสาหกรรม ทุกประเภท,งานดัดแปลงเครื่องจักร,งานสร้างเครื่องจักรกลตามแบบ ตามวัตถุประสงค์ของผู้ใช้งานการปรึกษาการเพิ่มผลผลิตในกระบวนการผลิต โดยทีมผู้บริหารและบุคลากรที่มีประสบการณ์ในงานมากกว่า 15 ปี โดยมุ่งเน้นผลิตงานให้ลูกค้าเป็นไปตามมาตรฐานสากล เหมาะกับการใช้งาน คัดสรรวัสดุ และกระบวนการผลิตที่มีประสิทธิภาพสูงสุด โดยคำนึงถึงต้นทุนและประโยชน์สูงสุดที่ลูกค้าได้รับ ตลอดระยะเวลาที่ผ่านมาเราเห็นปัญหาของลูกค้าในหลากหลายมิติ เราจึงนำปัญหาหลักๆของลูกค้า มาเป็นนโยบายหลักในการทำงาน เพื่อตอบโจทย์ลูกค้าให้มากที่สุด จึงได้รับความไว้วางใจจากลูกค้า ในหลายกลุ่มงาน ตลอดระยะเวลาที่ผ่านมา  เราจะมุ่งพัฒนา ให้ดียิ่งๆขึ้นต่อไป </p>
@@ -81,9 +81,13 @@ include("header.php");
                           <div class="item-about"><img src="asset/about/5.jpg" alt=""></div>
                           <div class="item-about"><img src="asset/about/6.jpg" alt=""></div>
                        </div>
-      </div>
-         <div class="row-team" style="padding:1.5em">          
-                               <h3> ทีมงานของเรา </h3>  
+      </div>        
+    </div>
+
+    <div class="container">
+      <div class="row-team">          
+                               <h3> ทีมงานของเรา </h3> 
+                               <br>
                                <div class="owl-carousel owl-theme team">
                                         <div class="item-team">
                                          
@@ -91,57 +95,62 @@ include("header.php");
                                    
                                           <div class="team-description">
                                              <p>จรัญ ตรีเดชี</p>
-                                            <h5>ผู้บริหาร</h5>
+                                            <h6>ผู้บริหาร1</h6>
                                             
                                           </div>
                                         </div>
+
                                          <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
                                           <div class="team-description">
                                              <p>จรัญ ตรีเดชี</p>
-                                            <h6>ผู้บริหาร</h6>
+                                            <h6>ผู้บริหาร2</h6>
                                                                      
                                           </div>
                                         </div>
+
                                          <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
                                           <div class="team-description">
                                              <p>จรัญ ตรีเดชี</p>
-                                            <h6>ผู้บริหาร</h6>
+                                            <h6>ผู้บริหาร3</h6>
                                                                         
                                           </div>
                                         </div>
+
                                          <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
                                           <div class="team-description">
                                              <p>จรัญ ตรีเดชี</p>
-                                            <h6>ผู้บริหาร</h6>
+                                            <h6>ผู้บริหาร4</h6>
                                                                             
                                           </div>
                                         </div>
+
                                          <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
                                           <div class="team-description">
                                              <p>จรัญ ตรีเดชี</p>
-                                            <h6>ผู้บริหาร</h6>
+                                            <h6>ผู้บริหาร5</h6>
                                                                       
                                           </div>
                                         </div>
+
                                          <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
                                           <div class="team-description">
                                              <p>จรัญ ตรีเดชี</p>
-                                            <h6>ผู้บริหาร</h6>
+                                            <h6>ผู้บริหาร6</h6>
                                                                            
                                           </div>
                                         </div>
@@ -227,33 +236,52 @@ include("header.php");
       <div class="container">
 
              <h2>บริการของเรา</h2>
-
+                    <p class="content">บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>
+                    <br>
                     <div class="row text-center text-lg-left">
-
+          
                             <div class="col-lg-3 col-md-6 col-xs-12">
-                              
-                                <img class="img-fluid img-thumbnail" src="asset/design.jpg" alt="">
+                                <div class="img-service">
+                                  <img class="img-fluid img-thumbnail" src="asset/logo/sketch.png" alt="">
+                                </div>
+                                <br>
                                 <h3> งานออกแบบ </h3>
                                 <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
+                                <br>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-xs-12">
-                          
-                                <img class="img-fluid img-thumbnail" src="asset/consult.jpg" alt="">
-                                <h3> ให้คำปรึกษา </h3>
-                                <p>บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>                         
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-xs-12">
-                       
-                               <img class="img-fluid img-thumbnail" src="asset/maintain.jpg" alt="">
-                                <h3> ซ่อมบำรุง </h3>
-                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>                        
-                            </div>   
+                
                               <div class="col-lg-3 col-md-6 col-xs-12">
                        
-                               <img class="img-fluid img-thumbnail" src="asset/maintain.jpg" alt="">
-                                <h3> ซ่อมบำรุง </h3>
-                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>                        
-                            </div>   
+                                <div class="img-service">
+                                  <img class="img-fluid img-thumbnail" src="asset/logo/gears.png" alt="">
+                                </div>
+                               <br>
+                                <h3> งานสร้างเครื่องจักรกล</h3>
+                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
+                                <br>                        
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-xs-12">
+                       
+                                <div class="img-service">
+                                  <img class="img-fluid img-thumbnail" src="asset/logo/tools.png" alt="">
+                                </div>
+                               <br>
+                                <h3> งานซ่อมบำรุง </h3>
+                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
+                                <br>                        
+                            </div>
+
+                             <div class="col-lg-3 col-md-6 col-xs-12">
+                          
+                                 <div class="img-service">
+                                  <img class="img-fluid img-thumbnail" src="asset/logo/meeting.png" alt="">
+                                </div>
+                                <br>
+                                <h3> ให้คำปรึกษา </h3>
+                                <p>บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>
+                                <br>                         
+                            </div>      
                    
                      </div>
 
@@ -268,7 +296,7 @@ include("header.php");
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <div class="container">
                   <h2>ผลงานของเรา</h2>
-                 <p> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
+                 <p class="content"> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
 
 
 
@@ -288,73 +316,143 @@ include("header.php");
                       <div class="portfolioContainer">
 
                               <div class="ist-col webTemplates">
-                                <a href="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" data-fancybox="webTemplates">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image"></figure>
-                                </a>
+                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" data-fancybox="webTemplates">
+                                  <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                                            <div class="overlay">
+                                              <div class="zoom"><i class="fas fa-search"></i></div>      
+                                            </div>
+                                  </figure>
+                                  </a>
+
                               </div>
 
                               <div class="ist-col drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" data-fancybox="drawings">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                          </figure>
                               </a>
+
                               </div>
 
                               <div class="ist-col webTemplates">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" data-fancybox="webTemplates">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
 
                               <div class="ist-col logos drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" data-fancybox="drawings">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
 
                               <div class="ist-col webTemplates">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" data-fancybox="webTemplates">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
 
                               <div class="ist-col ui">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" data-fancybox="ui">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/20342607.5434c04b49254.png" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
 
                               <div class="ist-col drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" data-fancybox="images">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="drawings">
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/b11bbb26474383.555f91fd42584.jpg" alt="drawings">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
                               </div>
 
                               <div class="ist-col webTemplates">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" data-fancybox="webTemplates">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/14385875.548573dae7a09.jpg" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
 
                               <div class="ist-col drawings">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" data-fancybox="drawings">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/14569777.5485b3876a1b9.png" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                              </figure>
                               </a>
+
                               </div>
                               <div class="ist-col logos">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" data-fancybox="logos">
-                                <figure><img class="img-fluid" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src=" https://mir-s3-cdn-cf.behance.net/projects/202/1d854a24500155.5505cccd057a4.jpg" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
                               <div class="ist-col ui">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" data-fancybox="ui">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/f9b95b26406487.555cc1fded76f.jpg" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
                               
                               <div class="ist-col logos">
                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" data-fancybox="logos">
-                                <figure><img class="img-fluid" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image"></figure>
+                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
+                                  <div class="overlay">
+                                            <div class="zoom"><i class="fas fa-search"></i>
+                                            </div>
+                                          </div>
+                                </figure>
                                 </a>
+
                               </div>
 
                               
@@ -371,7 +469,7 @@ include("header.php");
       
    </section>
 
-
+                                        
 
 
 <!-- Section Customer -->
@@ -382,27 +480,27 @@ include("header.php");
 
                     <div class="customer-col">
 
-                            <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="col-lg-4 col-md-6 col-xs-6">
                                 <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">                                         
                             </div>
 
-                            <div class="col-lg-4 col-md-6 col-xs-12">                            
+                            <div class="col-lg-4 col-md-6 col-xs-6">                            
                                 <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">                          
                             </div>
 
-                            <div class="col-lg-4 col-md-6 col-xs-12">                            
+                            <div class="col-lg-4 col-md-6 col-xs-6">                            
                                <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">            
                             </div>
 
-                            <div class="col-lg-4 col-md-6 col-xs-12">                        
+                            <div class="col-lg-4 col-md-6 col-xs-6">                        
                                 <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">               
                             </div>
 
-                            <div class="col-lg-4 col-md-6 col-xs-12">
+                            <div class="col-lg-4 col-md-6 col-xs-6">
                                 <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">
                             </div>
 
-                            <div class="col-lg-4 col-md-6 col-xs-12">                        
+                            <div class="col-lg-4 col-md-6 col-xs-6">                        
                                 <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">               
                             </div>             
                    
@@ -513,15 +611,6 @@ include("header.php");
 <script type="text/javascript">
 
 
-// $("img").click(function(){
-// swal({
-//           title: 'กำลังส่งข้อความ...',
-         
-//         }) ;
-//          swal.showLoading() ;
-// });
- 
-
 
   $("#contactForm").submit(function(event){
 
@@ -559,132 +648,6 @@ include("header.php");
         $(".swal2").css("display", "none");
     });
 </script>
-
-
-      <!--<div id="BtnFilter">
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('All')">All</button>
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('A')"> Type A</button>
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('B')"> Type B</button>
-              <button type="button" class="btn btn-secondary" onclick="filterSelection('C')"> Type C</button>
-          </div> -->
-
-
-<!-- 
-  <script type="text/javascript">
-                    //Image Modal
-                      // Get the modal
-                       var modal = document.getElementById('myModal');
-                      // Get the image and insert it inside the modal - use its "alt" text as a caption
-                      var modalImg = document.getElementById("img01");
-                      var captionText = document.getElementById("caption");
-                      var arr_img = [] ;
-                      var arr_des = [] ;
-                      // Modal Image
-                      $('img').click(function(){
-                          modal.style.display = "block";
-                          modalImg.src = this.src;
-                          captionText.innerHTML = this.alt;
-                           var key=arr_img.indexOf(modalImg.src) ;
-                            if(key === 0){
-                                $(".fa-chevron-left").hide() ;
-                                $(".fa-chevron-right").show() ;
-                            }else if(key === arr_img.length-1){
-                                $(".fa-chevron-right").hide() ;
-                                $(".fa-chevron-left").show() ;
-                            }else{
-                                $(".fa-chevron-left").show() ;
-                                $(".fa-chevron-right").show() ;
-                            }                   
-
-                      }) ; 
-                      // Next/Prev/Close Image
-                        $(".fa-chevron-right").click(NextImg) ;
-                        $(".fa-chevron-left").click(PrevImg) ;
-                        $(".fa-times").click(CloseImg) ;
-                         
-                      function NextImg(){
-                           var key=arr_img.indexOf(modalImg.src) ;
-                           key++ ;
-                           modal.style.display = "block";
-                           modalImg.src = arr_img[key];
-                           captionText.innerHTML = arr_des[key];
-                           if(key === arr_img.length-1)
-                            $(".fa-chevron-right").hide() ;
-                           else{
-                            $(".fa-chevron-left").show() ;
-                            $(".fa-chevron-right").show() ;
-                          }
-                      }
-                      function PrevImg(){
-                           var key=arr_img.indexOf(modalImg.src) ;
-                           modal.style.display = "block";
-                           key-- ;
-                           modalImg.src = arr_img[key] ;
-                           captionText.innerHTML = arr_des[key];  
-                           if(key === 0)
-                            $(".fa-chevron-left").hide() ;
-                           else{
-                            $(".fa-chevron-left").show() ;
-                            $(".fa-chevron-right").show() ;
-                          }                   
-                      }
-                      function CloseImg(){
-                           modal.style.display = "none";
-                      }
-          
-                    // Filter Product
-                     filterSelection("All") ;
-                      function filterSelection(c) {
-                        var section, i;
-                        section = document.getElementsByClassName("row");
-                        if (c == "All") c = "";
-                        for (i = 0; i < section.length; i++) {
-                          w3RemoveClass(section[i], "show");
-                          w3RemoveClass(section[i], "hide");
-                          if (section[i].className.indexOf(c) > -1) 
-                            w3AddClass(section[i], "show");
-                          else
-                            w3AddClass(section[i], "hide");
-                        }
-                     
-                         $(".hide").hide(500) ;
-                         $(".show").addClass("magictime swashIn") ; 
-
-                              //Dump all fillter img to array
-                              var img = $(".show img.img-thumbnail") ;
-                              for(var i=0 ; i<img.length ; i++){
-                                arr_img.push(img[i]['src']) ;
-                                arr_des.push(img[i]['alt']) ;
-                              }
-                          
-                      }
-
-                      function w3AddClass(element, name) {
-                        var i, arr1, arr2;
-                        arr1 = element.className.split(" ");
-                        arr2 = name.split(" ");
-                        for (i = 0; i < arr2.length; i++) {
-                          if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-                        }
-                      }
-
-                      function w3RemoveClass(element, name) {
-                        var i, arr1, arr2;
-                        arr1 = element.className.split(" ");
-                        arr2 = name.split(" ");
-                        for (i = 0; i < arr2.length; i++) {
-                          while (arr1.indexOf(arr2[i]) > -1) {
-                            arr1.splice(arr1.indexOf(arr2[i]), 1);     
-                          }
-                        }
-                        element.className = arr1.join(" ");
-
-                        // Clear fillter
-                        arr_img = [] ;
-                        arr_des = [] ;
-                      }
-
-                </script> -->
 
 
 

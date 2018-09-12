@@ -132,7 +132,7 @@ header i.fa-arrow-down{
     transition: 0.3s;
 }
 
-
+/*button*/
 .btn{
   background: #1e94cc;
   color:#fff;
@@ -154,7 +154,19 @@ header i.fa-arrow-down{
   transition: all 0.4s ease 0s;
 }
 
-
+@media only screen and (min-width: 768px){
+  p.content{
+    padding: 0px 4em;
+  }
+}
+@media only screen and (max-width: 768px){
+  p{
+    padding: 0px 1em;
+  }
+  .about h2{
+    text-align: center;
+  }
+}
 .container-fluid{
   padding:60px 0;
 }
@@ -173,6 +185,10 @@ font-size:1.5em;
 .team{
   background:white;
   font-size:1.5em;
+}
+.item-team{
+  box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.75);
+  border-radius: 15px 15px 15px 15px;
 }
 .team-description {
     padding: 5px;
@@ -323,46 +339,82 @@ font-size:1.5em;
 
 
 /*thumbnail img*/
-figure {
+/*figure {
 
   overflow: hidden;
+
 }
 figure:hover+span {
  border-radius: 15px 15px 0px 0px;
   opacity: 1;
 }
-
-
-/* Zoom In #1 */
 figure img {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: 0.8s ease-in-out;
   transition: 0.8s ease-in-out;
-}
-figure:hover img {
+
+}*/
+/*figure:hover img {
    border-radius: 15px 15px 0px 0px;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-   transition: 0.5s;
+   transition: 0.8s;
    
-}
+}*/
 
+/*.img-service{
+  padding: 50px 50px ;
+  border-radius: 50% ;
+  background-color: #2c9acc;
+}*/
 .img-thumbnail{
     background-color: #fff0;
-    border: none;
+ /*   border: none; */
+}
+.portfolioContainer .img-thumbnail{
+/*position: relative;*/
+}
+/*overlay product*/
+.overlay {
+  position: absolute;
+  top: 5%;
+ /* bottom: 0;*/
+  left: 5%;
+/*  right: 0;*/
+  height: 90%;
+  width: 90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.ist-col:hover .overlay {
+  opacity: 0.5;
+}
+
+.zoom {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .team .img-thumbnail{
-  padding: 1px;
+    padding: 60px 30px 0px;
     border-radius: 15px 15px 0px 0px;
-   background-color:#00000000;
-   border: 1px solid #00000000;
-   cursor: pointer;
+    background-color:#597fe4de;
+ /*  border: 1px solid #00000000;*/
+    cursor: pointer;
   }
 .services .img-thumbnail{
-  padding: 1px;
-    border-radius: 15px 15px 15px 15px;
+   padding: 1px;
+   border-radius: 15px 15px 15px 15px;
    background-color:#00000000;
    border: 1px solid #00000000;
    cursor: pointer;
