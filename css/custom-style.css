@@ -370,7 +370,7 @@ figure img {
 }*/
 .img-thumbnail{
     background-color: #fff0;
- /*   border: none; */
+    border: none; 
 }
 .portfolioContainer .img-thumbnail{
 /*position: relative;*/
@@ -528,7 +528,7 @@ footer.page-footer {
   width: 100%;
   height: 100%;
   z-index: 9999999;
-  background: url(../asset/icon/loading.gif) center no-repeat #fff;
+  background: url(../asset/logo/loading.gif) center no-repeat #fff;
   background-color: white;
 }
 

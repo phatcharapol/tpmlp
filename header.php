@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tpmlp</title>
+  <link rel="shortcut icon" type="image/png" href="asset/logo/icon-logo.png"/>
+	<title>THONG PRATHEEP MACHINERY</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
    
