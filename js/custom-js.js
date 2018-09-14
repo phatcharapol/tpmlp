@@ -108,7 +108,7 @@ $( "a.scrollanimate" ).click(function( event ) {
 		// $( ".spinner" ).remove();
 		setTimeout(function() {
 		  $('.spinner').remove();
-		}, 2500);
+		}, 3000);
 
 
 

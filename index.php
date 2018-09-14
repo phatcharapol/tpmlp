@@ -1,6 +1,6 @@
 <?php
+include("user_tracking.php") ;
 include("header.php");
- session_start();
 ?>
 <!DOCTYPE html>
 <html>
