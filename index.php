@@ -9,8 +9,8 @@ include("header.php");
 </head>
 
 
-<div class="spinner">
-</div>
+<!-- <div class="spinner">
+</div> -->
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -69,7 +69,7 @@ include("header.php");
     <div class="container" style="padding:6em 0 20px">
       <div class="col-md-7" style="text-align: left">
       <h2>เกี่ยวกับเรา</h2>
-      <p>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่ ดำเนินธุรกิจรับจ้างผลิต,ออกแบบชิ้นส่วนเครื่องจักรกล อุตสาหกรรม ทุกประเภท,งานดัดแปลงเครื่องจักร,งานสร้างเครื่องจักรกลตามแบบ ตามวัตถุประสงค์ของผู้ใช้งานการปรึกษาการเพิ่มผลผลิตในกระบวนการผลิต โดยทีมผู้บริหารและบุคลากรที่มีประสบการณ์ในงานมากกว่า 15 ปี โดยมุ่งเน้นผลิตงานให้ลูกค้าเป็นไปตามมาตรฐานสากล เหมาะกับการใช้งาน คัดสรรวัสดุ และกระบวนการผลิตที่มีประสิทธิภาพสูงสุด โดยคำนึงถึงต้นทุนและประโยชน์สูงสุดที่ลูกค้าได้รับ ตลอดระยะเวลาที่ผ่านมาเราเห็นปัญหาของลูกค้าในหลากหลายมิติ เราจึงนำปัญหาหลักๆของลูกค้า มาเป็นนโยบายหลักในการทำงาน เพื่อตอบโจทย์ลูกค้าให้มากที่สุด จึงได้รับความไว้วางใจจากลูกค้า ในหลายกลุ่มงาน ตลอดระยะเวลาที่ผ่านมา  เราจะมุ่งพัฒนา ให้ดียิ่งๆขึ้นต่อไป </p>
+      <p>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่ ดำเนินธุรกิจรับจ้างผลิต,ออกแบบชิ้นส่วนเครื่องจักรกล อุตสาหกรรมทุกประเภท ไม่ว่าจะเป็น งานดัดแปลงเครื่องจักร,งานสร้างเครื่องจักรกลตามแบบ ตามวัตถุประสงค์ของผู้ใช้งานการปรึกษาการเพิ่มผลผลิตในกระบวนการผลิต โดยทีมผู้บริหารและบุคลากรที่มีประสบการณ์ในงานมากกว่า 15 ปี โดยมุ่งเน้นผลิตงานให้ลูกค้าเป็นไปตามมาตรฐานสากลให้เหมาะกับการใช้งาน โดนคัดสรรวัสดุและกระบวนการผลิตที่มีประสิทธิภาพสูงสุด โดยคำนึงถึงต้นทุนและประโยชน์สูงสุดที่ลูกค้าได้รับ ในตลอดระยะเวลาที่ผ่านมาเราเห็นปัญหาของลูกค้าในหลากหลายมิติ เราจึงนำปัญหาหลักๆของลูกค้า มาเป็นนโยบายหลักในการทำงาน เพื่อตอบโจทย์ลูกค้าให้มากที่สุด จึงได้รับความไว้วางใจจากลูกค้า ในหลายกลุ่มงาน ตลอดระยะเวลาที่ผ่านมา  เราจะมุ่งพัฒนา ให้ดียิ่งๆขึ้นต่อไป </p>
       </div>
       <div class="col-md-5 carousel-about">
           <!-- carousel -->
@@ -84,7 +84,7 @@ include("header.php");
       </div>        
     </div>
 
-    <div class="container">
+<!--     <div class="container">
       <div class="row-team">          
                                <h3> ทีมงานของเรา </h3> 
                                <br>
@@ -157,76 +157,88 @@ include("header.php");
                                       
                               </div>
               </div>
-    </div>
+    </div> -->
    </section>
 
 
 
 <!-- Section Team -->
-  <!--  <div id="team" class="container-fluid-nav team">
-      <div class="container" style="padding:6em 0">
-          <div class="product-type" style="padding:1.5em">          
-                               <h5> ทีมงานของเรา </h5>  
-                               <div class="owl-carousel owl-theme product">
-                                        <div class="item-product">
+ <section id="team" class="container-fluid-nav team">
+  <div class="container">
+      <div class="row-team">          
+                               <h2> ทีมงานของเรา </h2> 
+                               <br>
+                               <div class="owl-carousel owl-theme team">
+                                        <div class="item-team">
                                          
                                             <img class="img-thumbnail" src="asset/profile.png" alt="">  
                                    
-                                          <div class="product-description">
-                                            <h6>Charan T.</h6>
-                                             <p>CEO1</p>
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร1</h6>
+                                            
                                           </div>
                                         </div>
-                                         <div class="item-product">
+
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
-                                          <div class="product-description">
-                                            <h6>Charan T.</h6>
-                                            <p>CEO2</p>                              
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร2</h6>
+                                                                     
                                           </div>
                                         </div>
-                                         <div class="item-product">
+
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
-                                          <div class="product-description">
-                                            <h6>Charan T.</h6>
-                                            <p>CEO3</p>                                     
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร3</h6>
+                                                                        
                                           </div>
                                         </div>
-                                         <div class="item-product">
+
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
-                                          <div class="product-description">
-                                            <h6>Charan T.</h6>
-                                            <p>CEO4</p>                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร4</h6>
+                                                                            
                                           </div>
                                         </div>
-                                         <div class="item-product">
+
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
-                                          <div class="product-description">
-                                            <h6>Charan T.</h6>
-                                            <p>CEO5</p>                             
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร5</h6>
+                                                                      
                                           </div>
                                         </div>
-                                         <div class="item-product">
+
+                                         <div class="item-team">
                                          
                                             <img class="img-fluid img-thumbnail" src="asset/profile.png" alt="">  
                                    
-                                          <div class="product-description">
-                                            <h6>Charan T.</h6>
-                                            <p>CEO6</p>                                   
+                                          <div class="team-description">
+                                             <p>จรัญ ตรีเดชี</p>
+                                            <h6>ผู้บริหาร6</h6>
+                                                                           
                                           </div>
                                         </div>
                                       
                               </div>
               </div>
-        </div>
-  </div> -->
+    </div>
+    </section>
 
 
 
@@ -236,8 +248,8 @@ include("header.php");
       <div class="container">
 
              <h2>บริการของเรา</h2>
-                    <p class="content">บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>
-                    <br>
+              <!--       <p class="content">บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>
+                    <br> -->
                     <div class="row text-center text-lg-left">
           
                             <div class="col-lg-3 col-md-6 col-xs-12">
@@ -245,9 +257,10 @@ include("header.php");
                                   <img class="img-fluid img-thumbnail" src="asset/logo/sketch.png" alt="">
                                 </div>
                                 <br>
-                                <h3> งานออกแบบ </h3>
-                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
-                                <br>
+                                <h3> งานผลิตชิ้นส่วน </h3>
+                                <p>รับผลิตชิ้นส่วนมอะไหล่เครื่องจักรกลอุตสาหกรรม ผลิตตามแบบตัวอย่าง ตามจำนวนและแบบแมซโปรดักชั่น</p>
+                                <button type="button" class="btn" onclick="popup('services1')">เพิ่มเติม</button>   
+                                <br><br>   
                             </div>
                 
                               <div class="col-lg-3 col-md-6 col-xs-12">
@@ -256,9 +269,10 @@ include("header.php");
                                   <img class="img-fluid img-thumbnail" src="asset/logo/gears.png" alt="">
                                 </div>
                                <br>
-                                <h3> งานสร้างเครื่องจักรกล</h3>
-                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
-                                <br>                        
+                                <h3> งานออกแบบ</h3>
+                                <p>รับผลิตชิ้นส่วนมอะไหล่เครื่องจักรกลอุตสาหกรรม ผลิตตามแบบตัวอย่าง ตามจำนวนและแบบแมซโปรดักชั่น</p>
+                                <button type="button" class="btn" onclick="popup('services2')">เพิ่มเติม</button>   
+                                <br><br>                         
                             </div>
 
                             <div class="col-lg-3 col-md-6 col-xs-12">
@@ -267,9 +281,11 @@ include("header.php");
                                   <img class="img-fluid img-thumbnail" src="asset/logo/tools.png" alt="">
                                 </div>
                                <br>
-                                <h3> งานซ่อมบำรุง </h3>
-                                <p>รับออกแบบศูนย์บริการทั้งทางด้านสถาปัตยกรรม โครงสร้าง และวิธี-ขั้นตอนการทำงาน รวมไปถึงการออกแบบอัตลักษณ์องค์กร สื่อสิ่งพิมพ์ เอกสาร สื่อออนไลน์ และคอนเทนท์ต่างๆ</p>
-                                <br>                        
+                                <h3> งานซ่อมบำรุงและติดตั้ง </h3>
+                                <p>รับผลิตชิ้นส่วนมอะไหล่เครื่องจักรกลอุตสาหกรรม ผลิตตามแบบตัวอย่าง ตามจำนวนและแบบแมซโปรดักชั่น</p>
+                                <button type="button" class="btn" onclick="popup('services3')">เพิ่มเติม</button>   
+                                <br><br>    
+
                             </div>
 
                              <div class="col-lg-3 col-md-6 col-xs-12">
@@ -279,8 +295,9 @@ include("header.php");
                                 </div>
                                 <br>
                                 <h3> ให้คำปรึกษา </h3>
-                                <p>บริการให้คำปรึกษาในการทำธุรกิจผู้แทนจำหน่ายรถยนต์และศูนย์บริการรถยนต์มาตรฐาน ทั้งเรื่องการตลาด การก่อสร้าง และการเลือกเครื่องมือ เพื่อประโยชน์สูงสุดของธุรกิจของท่าน</p>
-                                <br>                         
+                                <p>รับผลิตชิ้นส่วนมอะไหล่เครื่องจักรกลอุตสาหกรรม ผลิตตามแบบตัวอย่าง ตามจำนวนและแบบแมซโปรดักชั่น</p>
+                                <button type="button" class="btn" onclick="popup('services4')">เพิ่มเติม</button>   
+                                <br><br>                          
                             </div>      
                    
                      </div>
@@ -296,7 +313,7 @@ include("header.php");
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <div class="container">
                   <h2>ผลงานของเรา</h2>
-                 <p class="content"> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p>
+               <!--   <p class="content"> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p> -->
 
 
 
@@ -306,18 +323,18 @@ include("header.php");
                       <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                           <div class="portfolioFilter clearfix">
                            <!--  <a href="#" data-filter="*" class="current">ผลงานทั้งหมด</a> -->
-                            <a href="#" data-filter=".webTemplates" class="current">งานสร้างเครื่องจักร</a>
+                            <a href="#" data-filter=".webTemplates" class="current">งานผลิตชิ้นส่วน</a>
                             <a href="#" data-filter=".logos">งานออกแบบ</a>
-                            <a href="#" data-filter=".drawings">งานซ่อมบำรุง</a>
-                            <a href="#" data-filter=".ui">งานดัดแปลง</a>
+                            <a href="#" data-filter=".drawings">งานซ่อมบำรุงและติดตั้ง</a>
+                            <a href="#" data-filter=".ui">ให้คำปรึกษา</a>
                           </div>
                      
 
                       <div class="portfolioContainer">
-
+                  
                               <div class="ist-col webTemplates">
-                                   <a href="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" data-fancybox="webTemplates">
-                                  <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                                   <a href="https://sv1.picz.in.th/images/2018/12/06/3mHWBy.jpg" data-fancybox="webTemplates">
+                                  <figure><img class="img-fluid img-thumbnail" src="https://sv1.picz.in.th/images/2018/12/06/3mHWBy.jpg" alt="image">
                                             <div class="overlay">
                                               <div class="zoom"><i class="fas fa-search"></i></div>      
                                             </div>
@@ -327,8 +344,8 @@ include("header.php");
                               </div>
 
                               <div class="ist-col drawings">
-                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" data-fancybox="drawings">
-                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
+                                  <a href="https://sv1.picz.in.th/images/2018/12/06/3m8IG1.jpg" data-fancybox="drawings">
+                                <figure><img class="img-fluid img-thumbnail" src="https://sv1.picz.in.th/images/2018/12/06/3m8IG1.jpg" alt="image">
                                   <div class="overlay">
                                             <div class="zoom"><i class="fas fa-search"></i>
                                             </div>
@@ -339,8 +356,8 @@ include("header.php");
                               </div>
 
                               <div class="ist-col webTemplates">
-                                  <a href="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" data-fancybox="webTemplates">
-                                <figure><img class="img-fluid img-thumbnail" src="https://mir-s3-cdn-cf.behance.net/projects/202/11893193.5482088f6f391.png" alt="image">
+                                  <a href="https://sv1.picz.in.th/images/2018/12/06/3mHdqD.jpg" alt="3mHdqD.jpg" data-fancybox="webTemplates">
+                                <figure><img class="img-fluid img-thumbnail" src="https://sv1.picz.in.th/images/2018/12/06/3mHdqD.jpg" alt="3mHdqD.jpg" alt="image">
                                   <div class="overlay">
                                             <div class="zoom"><i class="fas fa-search"></i>
                                             </div>
@@ -610,7 +627,30 @@ include("header.php");
 
 <script type="text/javascript">
 
+  function popup(msgservice){
+    if(msgservice == 'services1'){
+      title = '<h3><b>งานผลิตชิ้นส่วน<b></h3>' ;
+      txt = '<img style="width:30%" src="https://sv1.picz.in.th/images/2018/12/06/3mHWBy.jpg" alt="image"><p style="font-size:15px">-งานผลิตชิ้นส่วน,อะไหล่ ,เครื่องจักรกล อุตสาหกรรม ผลิตตามแบบ,ตัวอย่าง, ตามจำนวน,และแบบแมชโปรดักชั่น<br></p><p style="font-size:15px">-งานเพลา เพลท พูลเล่ย์ รอลเลอร์ พั้น ไดน์ พิน บุช ชาร์ป หน้าแปลน เฮ้าซิ่ง เฟืองโซ่, เฟือง,เฟืองสะพาน, เกลียวหนอน ,ใบมีดตัดโลหะ,งาน หล่อโลหะ ฯลฯเครื่องจักรทั่วไป  ขนาด1ซม.-180ซม.ยาว500ซม.เครื่องจักร ซีเอ็นซี ขนาด1ซม.-20ซม.ยาว75ซม.</p>' ; 
+    }
+    else if(msgservice == 'services2'){
+      title = '<h3><b>งานออกแบบและสร้างเครื่องจักรกล</b></h3>' ;
+      txt = '<img style="width:30%" src="https://sv1.picz.in.th/images/2018/12/06/3mHWBy.jpg" alt="image"><p style="font-size:15px"><p style="font-size:15px">-งานออกแบบ,สร้างและผลิตเครื่องจักร,ดัดแปลงเครื่องจักรกล<br></p><p style="font-size:15px">-เครื่องจักรกลผลิตหลังคาเหล็ก,สังกะสี,เครื่องจักรผลิตผสมคอนกรีตสำเร็จ,เครื่องจักรผลิตชิ้นส่วนสปริงที่นอน,ออกแบบและผลิตโปรเจคงาน</p>' ; 
+    }else if(msgservice == 'services3'){
+      title = '<h3><b>งานซ่อมบำรุงและติดตั้ง</b></h3>' ;
+      txt = '<img style="width:30%" src="https://sv1.picz.in.th/images/2018/12/06/3mHWBy.jpg" alt="image"><p style="font-size:15px"><p style="font-size:15px">-ชุดปรับตั้งเครื่องโปรเจคเตอร์ เฟรมยึด แอลอีดี อุปกรณ์ติดตั้ง แสง สี เสียง ในงานจัดการแสดง<br></p><p style="font-size:15px">-งานซ่อมอุปกรณ์ เครื่องมือ ศูนย์บริการรถยนต์ แม่แรง, ลิฟท์ยกรถ,เครื่องตั้งศูนย์,ถ่วงล้อ<br></p><p style="font-size:15px">-งานสร้าง,ซ่อม,อุปกรณ์ และติดตั้งในเรือประมง,เรือสปีดโบ๊ท</p>' ;   
+    }else{
+      title = '<h3><b>ให้คำปรึกษา</b></h3>' ;
+      txt = 'sss' ; 
+    }
 
+     swal({
+          title: title,
+          html:txt,
+          confirmButtonText: 'ปิด',
+          width:'70%',
+        }) ;
+    
+  }
 
   $("#contactForm").submit(function(event){
 

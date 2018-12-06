@@ -172,7 +172,7 @@ header i.fa-arrow-down{
 }
 
 .about{
-background:#FFFFFF;
+background:#F6F6F6;
 font-size:1.5em;
 }
 
@@ -183,7 +183,8 @@ font-size:1.5em;
 
 }
 .team{
-  background:white;
+  background:#36546D;
+  color:white;
   font-size:1.5em;
 }
 .item-team{
@@ -218,8 +219,8 @@ font-size:1.5em;
 }
 
 .product{
-  background:#DFE6EC;
-  color:black;
+  background:#36546D;
+  color:white;
 
 }
 .product p{
@@ -249,8 +250,8 @@ font-size:1.5em;
 
 /*section ContactUS*/
 .contact-us{
-  background:#d9e4f1;
-  color:black;
+  background:#36546D;
+  color:white;
 }
 .contact-channel{
   font-size: 20px;
@@ -541,6 +542,7 @@ footer.page-footer {
 }
 
 .portfolioFilter a {
+  font-size: 15px;
   margin-right: 6px;
   color: #FFFFFF;
   text-decoration: none;
@@ -551,7 +553,7 @@ footer.page-footer {
 }
 
 .portfolioFilter a.current {
-  background: #cc8649;
+  background: #1e94cc;
   border: 1px solid #1e1e1e;
   color: #f9f9f9;
 }
