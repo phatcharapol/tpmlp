@@ -1,9 +1,7 @@
 
 $( document ).ready(function() {
 
-console.log($('section')) ;
-
-
+ new WOW().init();
 
 // Dynamic data-offset-top nav
 	var nav=$('#nav');
@@ -16,12 +14,8 @@ console.log($('section')) ;
 $( "a.scrollanimate" ).click(function( event ) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 800);
-        // $(this).attr("href").addClass(' animated fadeInLeft delay-2s') ;
-
-        // animate section
-        var section=($(this).attr("href")) ;
-        $(section+' div.container').addClass(' animated fadeIn delay-05s') ; ;
-        console.log($(section+' container')) ;
+     
+    
     });
 
 // $(window).scroll(function() { 
@@ -70,17 +64,17 @@ $( "a.scrollanimate" ).click(function( event ) {
 	  };
 	}
 
-	/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-	var prevScrollpos = window.pageYOffset;
-	window.onscroll = function() {
-	  var currentScrollPos = window.pageYOffset;
-	  if (prevScrollpos > currentScrollPos) {
-	    document.getElementById("nav").style.top = "0";
-	  } else {
-	    document.getElementById("nav").style.top = "-100px";
-	  }
-	  prevScrollpos = currentScrollPos;
-	}
+	// /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+	// var prevScrollpos = window.pageYOffset;
+	// window.onscroll = function() {
+	//   var currentScrollPos = window.pageYOffset;
+	//   if (prevScrollpos > currentScrollPos) {
+	//     document.getElementById("nav").style.top = "0";
+	//   } else {
+	//     document.getElementById("nav").style.top = "-100px";
+	//   }
+	//   prevScrollpos = currentScrollPos;
+	// }
 
 
 	// // carousel

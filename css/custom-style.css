@@ -28,6 +28,22 @@ h2{
     font-size: 44px;
     line-height: 64px;
 }
+h3{
+    font-size: 25px;
+    line-height: 34px;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+}
+hr {
+  border: 1px solid black;
+  border-radius: 5px;
+  width:50%;
+}
+section {
+  padding: 10px;
+}
  @media only screen and (max-width: 992px){
   h1{
      font-size: 38px;
@@ -41,6 +57,26 @@ h2{
 
 }
 
+ @media only screen and (max-width: 450px){
+  h1{
+     font-size: 33px;
+    margin-bottom: 0;
+
+  }
+  h2{
+      font-size: 25px;
+
+  }
+  h3{
+     font-size:20px;
+     line-height: 20px;
+  }
+  p{
+    font-size: 13px;
+  }
+
+}
+
 .v-header{
   height:100vh;
   display:flex;
@@ -50,8 +86,8 @@ h2{
 
 .container{
  
-  padding-left:1rem;
-  padding-right:1rem;
+/*  padding-left:1rem;
+  padding-right:1rem;*/
   margin:auto;
   text-align:center;
 }
@@ -237,8 +273,8 @@ font-size:1.5em;
 }*/
 
 .customer{
-   background:#F6F6F6;
-   color:black;
+   background:#0c0c0cde;
+   color:white;
 }
 .customer span img{
   width:80px;
@@ -269,9 +305,9 @@ font-size:1.5em;
 /*Navbar */
   .navbar {
       margin-bottom: 0;
-      background-color:#22547000;
+      background-color:#FFFFFF;
       z-index: 9999;
-      border: 0;
+      border: 1;
       font-size: 15px;
       line-height: 1.4285714px !important;
       letter-spacing: 1px;
@@ -280,11 +316,11 @@ font-size:1.5em;
       padding: 10px;
   }
   .navbar .navbar-brand {
-    background: url(../asset/logo/logo.png) center / contain no-repeat;
+    background: url(../asset/logo/logo4.png) center / contain no-repeat;
     width: 200px;
   }
    .navbar-nav li a span{
-       color: #FFFFFF ;       
+       color: black ;       
    }
   .navbar-nav li a:hover span, .navbar-nav li.active a span{
       color: #1E94CC;
@@ -303,16 +339,7 @@ font-size:1.5em;
     background-color: #00000000;
     transition-duration: 0.5s;
 }
-   .affix {
-   	position: fixed ;
-    top:0;
-    width: 100%;
- /*   z-index: 9999 ;*/
-    background-color:rgba(34, 34, 34, 1);
-  }
-   .affix li a span{
-   color:white;
-  }
+
   @media only screen and (max-width: 991px){
    .navbar {
       padding: 10px 0px;
@@ -443,7 +470,7 @@ figure img {
 	text-align: left ;
 }
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 a:hover{
@@ -464,8 +491,9 @@ footer.page-footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#1E282D;
-    color: white;
+   /* background-color:#1E282D;*/
+    background-color:white;
+    color: black;
     text-align: center;
     padding: 20px 0 0 20px;
 
@@ -492,7 +520,7 @@ footer.page-footer {
   }
    footer.page-footer .line2 p a{
    
-    color:#1E94CC;
+    color:black;
     
   }
      footer.page-footer .line2 p a:hover{

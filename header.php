@@ -22,7 +22,7 @@
 
   <!-- Animate page -->
    <link rel="stylesheet" type="text/css" href="css/magic.min.css">
-   <link rel="stylesheet" type="text/css" href="css/animate.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
      
 
     <!--nav animate  -->
@@ -42,6 +42,9 @@
    <!-- pop up imgae -->
    <link href="css/fancybox.min.css" rel="stylesheet" type="text/css">
     <script src='js/fancybox.min.js'></script>
+     <!-- wow.js -->
+     <link href="node_modules/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+    <script src='node_modules/wowjs/dist/wow.min.js'></script>
 
 
   <!-- Customize -->
