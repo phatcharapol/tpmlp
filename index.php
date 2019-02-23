@@ -22,9 +22,9 @@ include("header.php");
     <div class="fullscreen-video-wrap">
       <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
       <!-- DO NOT USE THIS VIDEO, I JUST NEEDED A HOSTED VIDEO FOR THIS CODEPEN> USE THE ONE ABOVE -->
-  <!--     <video src="asset/bgvideo.mp4" autoplay loop muted>
-    </video> -->
-    <img src="asset/about/3.jpg">
+      <video src="asset/bgvideo.mp4" autoplay loop muted>
+    </video>
+    <!-- <img src="asset/about/3.jpg"> -->
     </div>
     <div class="header-overlay"></div>
     <div class="header-content text-md-center animated fadeInUp">
