@@ -88,7 +88,9 @@ section {
  
 /*  padding-left:1rem;
   padding-right:1rem;*/
-  margin:auto;
+  /* margin:auto; */
+  margin-right: auto;
+  margin-left: auto;
   text-align:center;
 }
 
@@ -156,7 +158,7 @@ section {
 
 .header-content p{
   text-align: center;
-  font-size:1.5em;
+  font-size:18px;
   display:block;
   padding-bottom:2rem;
 }
@@ -197,7 +199,7 @@ header i.fa-arrow-down{
 }
 @media only screen and (max-width: 768px){
   p{
-    padding: 0px 1em;
+    /* padding: 0px 1em; */
   }
   .about h2{
     text-align: center;
@@ -208,7 +210,7 @@ header i.fa-arrow-down{
 }
 
 .about{
-background:#F6F6F6;
+background:#FBFBFB;
 font-size:1.5em;
 }
 
@@ -239,7 +241,7 @@ font-size:1.5em;
 
 
 .services{
-   background:#F6F6F6;
+   background:#FBFBFB;
    color:black;
 }
 .services p{
@@ -255,8 +257,8 @@ font-size:1.5em;
 }
 
 .product{
-  background:#36546D;
-  color:white;
+  background:#FBFBFB;
+  color:black;
 
 }
 .product p{
@@ -273,8 +275,8 @@ font-size:1.5em;
 }*/
 
 .customer{
-   background:#0c0c0cde;
-   color:white;
+   background:#FBFBFB;
+   color:black;
 }
 .customer span img{
   width:80px;
@@ -284,16 +286,21 @@ font-size:1.5em;
   padding: 1.5em 1.5em ;
 }
 
+
 /*section ContactUS*/
 .contact-us{
-  background:#36546D;
-  color:white;
+  background:#FBFBFB;
+  color:black;
 }
 .contact-channel{
   font-size: 20px;
   text-align: left ;
 }
-
+/* section sec_contact */
+.sec_contact{
+  background-color: white;
+  color:black;
+}
 
 @media(max-width:960px){
   .container{
@@ -303,41 +310,29 @@ font-size:1.5em;
 }
 
 /*Navbar */
-  .navbar {
-      margin-bottom: 0;
-      background-color:#FFFFFF;
-      z-index: 9999;
-      border: 1;
-      font-size: 15px;
-      line-height: 1.4285714px !important;
-      letter-spacing: 1px;
-      border-radius: 0;
-      transition-duration: 0.5s;
-      padding: 10px;
-  }
-  .navbar .navbar-brand {
-    background: url(../asset/logo/logo4.png) center / contain no-repeat;
-    width: 200px;
-  }
-   .navbar-nav li a span{
-       color: black ;       
-   }
-  .navbar-nav li a:hover span, .navbar-nav li.active a span{
-      color: #1E94CC;
-      -webkit-transition: all 0.2s; /* For Safari 3.1 to 6.0 */
-      transition: all 0.2s;
-  }
-  li.active{
-     color: #1E94CC;
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-     
-  }
- 
-  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #00000000;
-    transition-duration: 0.5s;
+.navbar {
+  margin-bottom: 0;
+  background-color:#FFFFFF;
+  z-index: 9999;
+  border: 1;
+  font-size: 20px;
+  line-height: 1.4285714px !important;
+  letter-spacing: 1px;
+  border-radius: 0;
+  transition-duration: 0.5s;
+  padding: 15px;
+}
+.navbar .navbar-brand {
+  background: url(../asset/logo/logo4.png) center / contain no-repeat;
+  width: 200px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: black !important;
+ /* background-color:gainsboro !important; */
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
 }
 
   @media only screen and (max-width: 991px){
@@ -354,12 +349,12 @@ font-size:1.5em;
   }
  @media only screen and (max-width: 767px){
  .navbar {
-    background: #23292c;
+    background: #FFFFFF;
     padding: 10px 0;
  
   }
  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color:#83858a7d;
+    background-color:#FFFFFF;
   }
 }
 
@@ -492,7 +487,7 @@ footer.page-footer {
     bottom: 0;
     width: 100%;
    /* background-color:#1E282D;*/
-    background-color:white;
+    background-color:#f3f2f2;
     color: black;
     text-align: center;
     padding: 20px 0 0 20px;
@@ -545,6 +540,10 @@ footer.page-footer {
   height: 20px ;
   width:20px;
  }
+ img.img-contact{
+  height: 100px ;
+  width:100px;
+ }
 
 /*
 .no-js #loader { display: none;  }
@@ -586,9 +585,13 @@ footer.page-footer {
   color: #f9f9f9;
 }
 
+.portfolioContainer{
+  border-color:green;
+}
+
 .portfolioContainer img{
      padding: 1.5em 1.5em ;
-     width: 100%
+     width: 100%;
 }
 
 .isotope-item {

@@ -27,7 +27,28 @@ include("header.php");
                   <h2>ผลงานของเรา</h2>
                <!--   <p class="content"> ทั้งนี้บริษัทฯ ยังได้ขยายสายงานการผลิตเป็นโรงงานตัดด้วยเครื่อง LASER, พับ, ผลิตโครงสร้าง, เชื่อม-ประกอบตู้ MDB, PANEL, ตู้ SIZE ต่าง, โครงสร้างตู้น้ำมัน, ตู้เติมเงินออนไลน์, ล็อคเกอร์ และ Furniture ตามแบบของลูกค้า เป็นต้น โดยมีทีมงานดีไซเนอร์ดูแลเพื่อให้ได้ผลงานที่ให้ตรงใจลูกค้า </p> -->
 
-
+<div class="large-3 medium-12 column text-left show-for-large">
+                <nav class="hidden768">
+                    <ul class="vertical menu">
+                                                    <li class="text_work_examples color_black_1 img_content7_1 transition active">
+                                <h5>ชิ้นส่วนแม่พิมพ์ตามแบบ</h5>
+                                <h5>Mold and Die Parts</h5>
+                            </li>
+                                                    <li class="text_work_examples color_black_1 img_content7_2 transition">
+                                <h5>ชิ้นส่วนความเที่ยงตรงสูง</h5>
+                                <h5>Precision Parts</h5>
+                            </li>
+                                                    <li class="text_work_examples color_black_1 img_content7_3 transition">
+                                <h5>ชิ้นส่วนเครื่องจักรตามแบบ</h5>
+                                <h5>Machine Parts</h5>
+                            </li>
+                                                    <li class="text_work_examples color_black_1 img_content7_4 transition">
+                                <h5>เกจ และ จิ๊ก วัดชิ้นงาน</h5>
+                                <h5>Gage and Jig Fixtures</h5>
+                            </li>
+                                            </ul>
+                </nav>
+            </div>
 
                   <!-- gallery product -->
                  
@@ -192,12 +213,12 @@ include("header.php");
                
 
 
-        </div>>
+        </div>
 
 
       
    </section>
-
+   <?php include("sec_contact.php")?>
 
 <?php include("footer.php")?>
 

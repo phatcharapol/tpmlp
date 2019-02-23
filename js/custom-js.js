@@ -78,6 +78,25 @@ $( "a.scrollanimate" ).click(function( event ) {
 
 
 	// // carousel
+	var owl_customer = $('.owl-carousel.customer');
+	owl_customer.owlCarousel({
+		loop:true,
+		margin:10,
+		autoplay:true,
+		items:4,
+		responsive:{
+			0:{
+				items:2
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:4
+			}
+		}
+		
+	});
  		
  	var owl_about = $('.owl-carousel.about');
 		owl_about.owlCarousel({

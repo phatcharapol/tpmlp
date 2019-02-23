@@ -29,7 +29,7 @@ include("header.php");
       <div class="container wow fadeInUp">
         <h1>ห้างหุ้นส่วนจำกัด ทองประทีป แมชชีนเนอรี่</h1>
         <br><br>
-        <p class="content">รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง </p> 
+        <p>รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง รับสร้างเครื่องจักรกลและผลิตชิ้นส่วนเครื่องจักรกลทุกชิ้น รับจ้างกลึง กัด ไส เจียรไนร เจาะเชื่อมประกอบ และซ่อมเครื่องจักรกล รับ ออกแบบผลิตชิ้นส่วนเครื่องจกกล งานอะไหล่ งานซ่อมบำรุง งานสร้างเครื่อง </p> 
        <!--    <a href="#about" class="scrollanimate"><button type="button" class="btn">เกี่ยวกับเรา</button></a> -->
       </div>
     </div>
@@ -47,7 +47,7 @@ include("header.php");
        <div class="container wow fadeInUp">
         <h2>ทำไมต้องเรา ?</h2>
         <br>
-            <div class="row">
+                  <div class="row">
           
                               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="img-service col-lg-4 col-md-4 col-sm-4 col-xs-4">
@@ -58,7 +58,7 @@ include("header.php");
                                 <p>โดยทีมผู้บริหารและบุคลากรที่มีประสบการณ์ในงานมากกว่า 15 ปี</p>
                                 </div>
                             </div>
-
+                           
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="img-service col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                   <img class="img-fluid img-thumbnail" src="asset/logo/shield.png" alt="">
@@ -68,7 +68,9 @@ include("header.php");
                                 <p>คัดสรรวัสดุและกระบวนการผลิตที่มีประสิทธิภาพสูงสุด</p>
                                 </div>
                             </div>
-
+                     </div>
+                     <br>
+                     <div class="row">      
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="img-service col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                   <img class="img-fluid img-thumbnail" src="asset/logo/savecost.png" alt="">
@@ -78,7 +80,7 @@ include("header.php");
                                 <p>คำนึงถึงต้นทุนและประโยชน์สูงสุดที่ลูกค้าได้รับ</p>
                                 </div>
                             </div>
-
+  
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="img-service col-lg-4 col-md-4 col-sm-4 col-xs-4">
                                   <img class="img-fluid img-thumbnail" src="asset/logo/professor.png" alt="">
@@ -96,32 +98,37 @@ include("header.php");
                   
                   <br><br><hr><br>
 
-             <h2>ผลิตภัณฑ์</h2>
+             <h2>ผลิตงานได้หลากหลาย</h2>
+<p>เรามีความเชี่ยวชาญในงานที่มีความหลากหลาย</p>
+<p>ผลิตในจำนวนไม่มากก็สามารถเริ่มผลิตกับเราได้</p>
         <br>
             <div class="row">
           
 
-                            <div class="col-lg-4 col-md-4 col-md-4 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="img-service">
-                                  <img class="img-fluid img-thumbnail" src="asset/logo/sketch.png" alt="">
+                                  <img class="img-fluid img-thumbnail" src="asset/index/gear.png" alt="">
                                 </div>
                                 <br>
-                                <h3> ผลิตชิ้นส่วน </h3>
+                                <h3> ชิ้นส่วนเครื่องจักรลตามแบบ </h3>
+                                <p>Machine Parts</p>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-md-4 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="img-service">
                                   <img class="img-fluid img-thumbnail" src="asset/logo/sketch.png" alt="">
                                 </div>
                                 <br>
-                                <h3> ซ๋อมบำรุงและติดตั้ง </h3>
+                                <h3> ชิ้นส่วนแม่พิมพ์ตามแบบ </h3>
+                                <p> Mold and Die Parts</p>
                             </div>
                 
-                            <div class="col-lg-4 col-md-4 col-md-4 col-xs-12">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="img-service">
                                   <img class="img-fluid img-thumbnail" src="asset/logo/sketch.png" alt="">
                                 </div>
                                 <br>
                                 <h3> ออกแบบและผลิตเครื่องจักร </h3>
+                                <p>Manufacturing machinery and design</p>
                             </div>
                                         
                      </div>
@@ -215,7 +222,7 @@ include("header.php");
       <div class="container">
                     <h2>กลุ่มลูกค้า</h2>
         
-                    <div class="customer-col">
+                    <!-- <div class="customer-col">
                             <div class="col-lg-3 col-md-6 col-xs-6">
                                 <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">                                         
                             </div>
@@ -232,7 +239,15 @@ include("header.php");
                                 <img class="img-fluid img-thumbnail" src="asset/customer/scg.png" alt="">               
                             </div>
            
-                     </div>
+                     </div> -->
+                     <div class="owl-carousel owl-theme customer">
+                          <div class="item-customer"><img src="asset/customer/scg.png" alt=""></div>
+                          <div class="item-customer"><img src="asset/customer/scg.png" alt=""></div>
+                          <div class="item-customer"><img src="asset/customer/scg.png" alt=""></div>
+                          <div class="item-customer"><img src="asset/customer/scg.png" alt=""></div>
+                          <div class="item-customer"><img src="asset/customer/scg.png" alt=""></div>
+                          <div class="item-customer"><img src="asset/customer/scg.png" alt=""></div>
+                       </div>
 
         </div>
 
@@ -240,7 +255,7 @@ include("header.php");
 
 
 
-
+ <?php include("sec_contact.php")?>
 
 <?php include("footer.php")?>
 

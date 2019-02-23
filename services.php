@@ -84,7 +84,74 @@ include("header.php");
 
     </section>
 
+    <section>
+    <div class="container">
+                <h3> ผลิตด้วยเครื่องจักรทันสมัย และทีมผู้เชี่ยวชาญ</h3>
+                <p>ผลิตด้วยเครื่องจักร CNC ที่ทันสมัย</p>
+                <nav class="hidden768">
+                    <ul id="machinelist" class="vertical menu">
+                                               
+                            <a href="#milling" data-target="milling" class="color_black_1 hover">
+                                <li itemprop="itemListElement" class="machinlist Milling_Machine transition">
+                                    <h5 itemprop="name">เครื่องมิลลิ่ง</h5>
+                                    <h5>Milling Center Machine</h5>
+                                </li>
+                            </a>
 
+                                               
+                            <a href="#lathe" data-target="lathe" class="color_black_1 hover">
+                                <li itemprop="itemListElement" class="machinlist Lathe_Machine transition">
+                                    <h5 itemprop="name">เครื่องกลึง</h5>
+                                    <h5>Lathe Machine</h5>
+                                </li>
+                            </a>
+
+                                               
+                            <a href="#internal" data-target="internal" class="color_black_1 hover">
+                                <li itemprop="itemListElement" class="machinlist Internal_Machine transition">
+                                    <h5 itemprop="name">เครื่องเจียรรูใน</h5>
+                                    <h5>Internal Grinding Machine</h5>
+                                </li>
+                            </a>
+
+                                               
+                            <a href="#cylindrical" data-target="cylindrical" class="color_black_1 hover">
+                                <li itemprop="itemListElement" class="machinlist Cylindrical_Machine transition">
+                                    <h5 itemprop="name">เครื่องเจียรกลม</h5>
+                                    <h5>Cylindrical Grinding Machine</h5>
+                                </li>
+                            </a>
+
+                                               
+                            <a href="#surface" data-target="surface" class="color_black_1">
+                                <li itemprop="itemListElement" class="machinlist Surface_Machine transition">
+                                    <h5 itemprop="name">เครื่องเจียรราบ</h5>
+                                    <h5>Surface Grinding Machine</h5>
+                                </li>
+                            </a>
+
+                                               
+                            <a href="#laser" data-target="laser" class="color_black_1">
+                                <li itemprop="itemListElement" class="machinlist Laser_Machine transition">
+                                    <h5 itemprop="name">เครื่องตัดเลเซอร์</h5>
+                                    <h5>Laser Cutting Machine</h5>
+                                </li>
+                            </a>
+
+                                               
+                            <a href="#deburring" data-target="deburring" class="color_black_1">
+                                <li itemprop="itemListElement" class="machinlist Deburring_Machine transition">
+                                    <h5 itemprop="name">เครื่องลบคมชิ้นงาน</h5>
+                                    <h5>Deburring Machine</h5>
+                                </li>
+                            </a>
+
+                    </ul>
+                </nav>
+            </div>
+    </section>
+
+ <?php include("sec_contact.php")?>
 <?php include("footer.php")?>
 
  <script type="text/javascript">

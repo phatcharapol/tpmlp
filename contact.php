@@ -23,7 +23,7 @@ include("header.php");
 <!-- Section Contact US -->
    <section id="contact-us" class="container-fluid contact-us">
         <div class="container">
-            <h2>ติดต่อเรา</h2>
+            <!-- <h2>ติดต่อเรา</h2> -->
             <div class="col-md-6" >
                 <div class="contact-form">  
                     <form id="contactForm">
@@ -62,18 +62,18 @@ include("header.php");
                 </div>
 
                 
-           <!--      <div class="contact-channel"
+                <div class="contact-channel"
                           <p>หากไม่สะดวกใช้อีเมลล์</p>
                           <p><i class="fas fa-mobile-alt"></i> 0868890226,0894077868</p>
                           <p><i class="fab fa-facebook-square"></i><a id="link" href="https://www.facebook.com/Thongpratheepmahinenery/"> facebook.com/Thongpratheepmahinenery/</a></p>
                           <p><i class="fab fa-line"></i><a id="link" href="http://line.me/ti/p/~nuttsna"> @tpmlp</a></p>
-                </div> -->
+                </div>
             </div>
             <div class="col-md-6">
                 <br style="clear:both">
                <h3 style="margin-bottom: 25px; text-align:center;">แผนที่</h3>
-            <!--    <iframe id="map" frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/place?q=%E0%B8%AB%E0%B8%88%E0%B8%81.%20%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B8%9B%20%E0%B9%81%E0%B8%A1%E0%B8%8A%E0%B8%8A%E0%B8%B5%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88%20Phahon%20Yothin%2048%20Alley%2C%20Lane%2060%2C%20Tha%20Raeng%2C%20Bang%20Khen%2C%20Bangkok&key=AIzaSyAiOaOaOqtypn-v_8FVNIoh2fFsUNYJ4_4" allowfullscreen></iframe> -->
+               <iframe id="map" frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?q=%E0%B8%AB%E0%B8%88%E0%B8%81.%20%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B8%9B%20%E0%B9%81%E0%B8%A1%E0%B8%8A%E0%B8%8A%E0%B8%B5%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88%20Phahon%20Yothin%2048%20Alley%2C%20Lane%2060%2C%20Tha%20Raeng%2C%20Bang%20Khen%2C%20Bangkok&key=AIzaSyAiOaOaOqtypn-v_8FVNIoh2fFsUNYJ4_4" allowfullscreen></iframe>
             <div class="location">
                <p><h5> ห้างหุ้นส่วนจำกัด ทองประทีปแมชชีนเนอรี่</h5></p>
                <p><i class="fas fa-home"></i> 43 ซอย พหลโยธิน 48 แยก 60 แขวง ท่าแร้ง เขต บางเขน กรุงเทพฯ 10220</p>
@@ -89,6 +89,7 @@ include("header.php");
             </div>
         </div>
    </section>
+   <?php include("sec_contact.php")?>
 
 
 <?php include("footer.php")?>
