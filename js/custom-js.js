@@ -1,6 +1,7 @@
 
 $( document ).ready(function() {
 
+ new WOW().init();
 
 // Dynamic data-offset-top nav
 	var nav=$('#nav');
@@ -13,13 +14,20 @@ $( document ).ready(function() {
 $( "a.scrollanimate" ).click(function( event ) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 800);
-        // $(this).attr("href").addClass(' animated fadeInLeft delay-2s') ;
-
-        // animate section
-        var section=($(this).attr("href")) ;
-        $(section+' div.container').addClass(' animated bounceInLeft delay-05s') ; ;
-        console.log($(section+' container')) ;
+     
+    
     });
+
+// $(window).scroll(function() { 
+
+//       if ($(window).scrollTop() >  $("section:nth-of-type(odd)").offset().top) {
+//              // run your effect here
+//              $('section').addClass(' animated bounceInLeft delay-05s') ;
+//       }else{
+//       		$('section').addClass(' animated bounceInRight delay-05s') ;
+//       }
+
+// });
 
 
 	// smooth scroll
@@ -56,6 +64,18 @@ $( "a.scrollanimate" ).click(function( event ) {
 	  };
 	}
 
+	// /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+	// var prevScrollpos = window.pageYOffset;
+	// window.onscroll = function() {
+	//   var currentScrollPos = window.pageYOffset;
+	//   if (prevScrollpos > currentScrollPos) {
+	//     document.getElementById("nav").style.top = "0";
+	//   } else {
+	//     document.getElementById("nav").style.top = "-100px";
+	//   }
+	//   prevScrollpos = currentScrollPos;
+	// }
+
 
 	// // carousel
  		
@@ -72,33 +92,66 @@ $( "a.scrollanimate" ).click(function( event ) {
 
 		
 
-	var owl_product = $('.owl-carousel.product');
+	var owl_product = $('.owl-carousel.team');
 		owl_product.owlCarousel({
 			loop:true,
 		    margin:10,
-		    items:3,
+		    items:4,
 		    responsive:{
 		        0:{
-		            items:1
-		        },
-		        600:{
 		            items:2
 		        },
-		        1000:{
+		        600:{
 		            items:3
+		        },
+		        1000:{
+		            items:4
 		        }
 		    }
 		});
 
 
+// loading page
+		// $(".spinner").addClass('animated fadeOut delay-2s');	
+		// $( ".spinner" ).remove();
+		setTimeout(function() {
+		  $('.spinner').remove();
+		}, 3000);
 
-$(".spinner").addClass('animated fadeOut delay-2s');
 
-// $(".spinner").show();
-	// $(".spinner").delay(9000).hide(10).fadeOut();
-	// $("body").show().delay(5000).fadeIn();
 
-		
+// fillter image
+  var $container = $('.portfolioContainer');
+    $container.isotope({
+        filter: '.webTemplates',
+        // resizable:true,
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+  //        masonry:{
+  //           	 columnWidth: $container.width()/5
+		// }
+
+    });
+ 
+    $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+          
+         });
+         return false;
+    }); 
 
 
     

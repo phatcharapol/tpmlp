@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tpmlp</title>
+  <link rel="shortcut icon" type="image/png" href="asset/logo/icon-logo.png"/>
+	<title>THONG PRATHEEP MACHINERY</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
    
@@ -21,7 +22,7 @@
 
   <!-- Animate page -->
    <link rel="stylesheet" type="text/css" href="css/magic.min.css">
-   <link rel="stylesheet" type="text/css" href="css/animate.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
      
 
     <!--nav animate  -->
@@ -36,6 +37,15 @@
     <script src='js/sweetalert.min.js'></script>
   <!-- captcha api -->
      <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!-- filter image-->
+   <script src='js/isotop-filter.min.js'></script>
+   <!-- pop up imgae -->
+   <link href="css/fancybox.min.css" rel="stylesheet" type="text/css">
+    <script src='js/fancybox.min.js'></script>
+     <!-- wow.js -->
+     <link href="node_modules/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+    <script src='node_modules/wowjs/dist/wow.min.js'></script>
+
 
   <!-- Customize -->
     <link rel="stylesheet" type="text/css" href="css/custom-style.css">
